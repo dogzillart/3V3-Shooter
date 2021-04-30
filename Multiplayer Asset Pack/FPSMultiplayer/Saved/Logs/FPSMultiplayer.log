@@ -1,8 +1,8 @@
-﻿Log file open, 04/30/21 15:29:46
+﻿Log file open, 04/30/21 19:21:58
 LogInit: Display: Running engine for game: FPSMultiplayer
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.191805
+LogStats: Stats thread started at 0.142079
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -201,568 +201,1162 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2021.04.30-19.29.47:174][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2021.04.30-19.29.47:174][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2021.04.30-19.29.47:174][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Saved/Config/Windows/Engine.ini]
-[2021.04.30-19.29.47:174][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2021.04.30-19.29.47:174][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
-[2021.04.30-19.29.47:174][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
-[2021.04.30-19.29.47:174][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Saved/Config/Windows/Engine.ini]
-[2021.04.30-19.29.47:174][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Saved/Config/Windows/Engine.ini]
-[2021.04.30-19.29.47:174][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2021.04.30-19.29.47:174][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2021.04.30-19.29.47:174][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2021.04.30-19.29.47:174][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2021.04.30-19.29.47:174][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2021.04.30-19.29.47:174][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2021.04.30-19.29.47:174][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2021.04.30-19.29.47:174][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2021.04.30-19.29.47:174][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2021.04.30-19.29.47:174][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2021.04.30-19.29.47:174][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2021.04.30-19.29.47:174][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2021.04.30-19.29.47:174][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2021.04.30-19.29.47:174][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2021.04.30-19.29.47:174][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Saved/Config/Windows/Engine.ini]
-[2021.04.30-19.29.47:174][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2021.04.30-19.29.47:174][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2021.04.30-19.29.47:174][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2021.04.30-19.29.47:174][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2021.04.30-19.29.47:174][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2021.04.30-19.29.47:174][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2021.04.30-19.29.47:174][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2021.04.30-19.29.47:174][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2021.04.30-19.29.47:174][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2021.04.30-19.29.47:174][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2021.04.30-19.29.47:174][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2021.04.30-19.29.47:174][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2021.04.30-19.29.47:174][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2021.04.30-19.29.47:174][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Saved/Config/Windows/Engine.ini]
-[2021.04.30-19.29.47:174][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Saved/Config/Windows/Engine.ini]
-[2021.04.30-19.29.47:177][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Saved/Config/Windows/Scalability.ini]
-[2021.04.30-19.29.47:177][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2021.04.30-19.29.47:177][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2021.04.30-19.29.47:177][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Saved/Config/Windows/Scalability.ini]
-[2021.04.30-19.29.47:177][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2021.04.30-19.29.47:177][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Saved/Config/Windows/Scalability.ini]
-[2021.04.30-19.29.47:177][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2021.04.30-19.29.47:177][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2021.04.30-19.29.47:177][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2021.04.30-19.29.47:177][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2021.04.30-19.29.47:177][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2021.04.30-19.29.47:177][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Saved/Config/Windows/Scalability.ini]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Saved/Config/Windows/Scalability.ini]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Saved/Config/Windows/Scalability.ini]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Saved/Config/Windows/Scalability.ini]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Saved/Config/Windows/Scalability.ini]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2021.04.30-19.29.47:178][  0]LogInit: Selected Device Profile: [Windows]
-[2021.04.30-19.29.47:178][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2021.04.30-19.29.47:178][  0]LogHAL: Display: Platform has ~ 16 GB [17106984960 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2021.04.30-19.29.47:178][  0]LogInit: Going up to parent DeviceProfile []
-[2021.04.30-19.29.47:178][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Saved/Config/Windows/Scalability.ini]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Saved/Config/Windows/Scalability.ini]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Saved/Config/Windows/Scalability.ini]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Saved/Config/Windows/Scalability.ini]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2021.04.30-19.29.47:178][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Saved/Config/Windows/Scalability.ini]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Saved/Config/Windows/Scalability.ini]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Saved/Config/Windows/Scalability.ini]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Saved/Config/Windows/Scalability.ini]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2021.04.30-19.29.47:179][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2021.04.30-19.29.47:183][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2021.04.30-19.29.47:183][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2021.04.30-19.29.47:183][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
-[2021.04.30-19.29.47:183][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Saved/Config/Windows/Engine.ini]
-[2021.04.30-19.29.47:183][  0]LogInit: Computer: DESKTOP-RBTKJ0E
-[2021.04.30-19.29.47:183][  0]LogInit: User: kyle
-[2021.04.30-19.29.47:183][  0]LogInit: CPU Page size=4096, Cores=8
-[2021.04.30-19.29.47:183][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2021.04.30-19.29.47:183][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2021.04.30-19.29.47:183][  0]LogMemory: Platform Memory Stats for Windows
-[2021.04.30-19.29.47:183][  0]LogMemory: Process Physical Memory: 118.55 MB used, 118.55 MB peak
-[2021.04.30-19.29.47:183][  0]LogMemory: Process Virtual Memory: 110.43 MB used, 110.43 MB peak
-[2021.04.30-19.29.47:183][  0]LogMemory: Physical Memory: 6589.30 MB used,  9725.20 MB free, 16314.49 MB total
-[2021.04.30-19.29.47:183][  0]LogMemory: Virtual Memory: 5200.25 MB used,  134212528.00 MB free, 134217728.00 MB total
-[2021.04.30-19.29.47:187][  0]LogWindows: WindowsPlatformFeatures enabled
-[2021.04.30-19.29.47:421][  0]LogInit: Physics initialised using underlying interface: PhysX
-[2021.04.30-19.29.47:422][  0]LogInit: Using OS detected language (en-US).
-[2021.04.30-19.29.47:422][  0]LogInit: Using OS detected locale (en-US).
-[2021.04.30-19.29.47:424][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2021.04.30-19.29.47:574][  0]LogInit: Setting process to per monitor DPI aware
-[2021.04.30-19.29.47:630][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2021.04.30-19.29.47:630][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2021.04.30-19.29.49:467][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2021.04.30-19.29.49:467][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2021.04.30-19.29.49:467][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2021.04.30-19.29.49:467][  0]LogD3D11RHI: D3D11 adapters:
-[2021.04.30-19.29.49:542][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2021.04.30-19.29.49:542][  0]LogD3D11RHI:       8088/0/8157 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2021.04.30-19.29.49:544][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2021.04.30-19.29.49:544][  0]LogD3D11RHI:       0/0/8157 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2021.04.30-19.29.49:544][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2021.04.30-19.29.49:551][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2021.04.30-19.29.49:551][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
-[2021.04.30-19.29.49:551][  0]LogWindows: EnumDisplayDevices:
-[2021.04.30-19.29.49:551][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2021.04.30-19.29.49:551][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
-[2021.04.30-19.29.49:551][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2021.04.30-19.29.49:551][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2021.04.30-19.29.49:551][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2021.04.30-19.29.49:551][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2021.04.30-19.29.49:551][  0]LogD3D11RHI:   Driver Version: 466.27 (internal:27.21.14.6627, unified:466.27)
-[2021.04.30-19.29.49:551][  0]LogD3D11RHI:      Driver Date: 4-23-2021
-[2021.04.30-19.29.49:551][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
-[2021.04.30-19.29.49:611][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2021.04.30-19.29.49:611][  0]LogD3D11RHI: Async texture creation enabled
-[2021.04.30-19.29.49:611][  0]LogD3D11RHI: Array index from any shader is supported
-[2021.04.30-19.29.49:640][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2021.04.30-19.29.49:995][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2021.04.30-19.29.50:023][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2021.04.30-19.29.50:023][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2021.04.30-19.29.50:023][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2021.04.30-19.29.50:023][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2021.04.30-19.29.50:023][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2021.04.30-19.29.50:023][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2021.04.30-19.29.50:023][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2021.04.30-19.29.50:023][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2021.04.30-19.29.50:023][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2021.04.30-19.29.50:023][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2021.04.30-19.29.50:078][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2021.04.30-19.29.50:078][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2021.04.30-19.29.50:103][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
-[2021.04.30-19.29.50:120][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2021.04.30-19.29.50:137][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2021.04.30-19.29.50:154][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2021.04.30-19.29.50:171][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2021.04.30-19.29.50:188][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2021.04.30-19.29.50:205][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2021.04.30-19.29.50:239][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2021.04.30-19.29.50:239][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2021.04.30-19.29.50:263][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2021.04.30-19.29.50:263][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2021.04.30-19.29.50:282][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2021.04.30-19.29.50:300][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2021.04.30-19.29.50:317][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2021.04.30-19.29.50:334][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2021.04.30-19.29.50:334][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2021.04.30-19.29.50:381][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2021.04.30-19.29.50:602][  0]LogShaderCompilers: Guid format shader working directory is -54 characters bigger than the processId version (E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Intermediate/Shaders/WorkingDirectory/7916/).
-[2021.04.30-19.29.50:602][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/kyle/AppData/Local/Temp/UnrealShaderWorkingDir/5A6C59A6499D2623167337BC8C232A58/'.
-[2021.04.30-19.29.50:602][  0]LogXGEController: Cleaning working directory: C:/Users/kyle/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2021.04.30-19.29.50:602][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2021.04.30-19.29.50:603][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2021.04.30-19.29.50:603][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2021.04.30-19.29.52:593][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2021.04.30-19.29.52:633][  0]LogDerivedDataCache: Loaded boot cache 0.04s 75MB C:/Users/kyle/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2021.04.30-19.29.52:633][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/kyle/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
-[2021.04.30-19.29.52:633][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2021.04.30-19.29.52:633][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2021.04.30-19.29.52:633][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2021.04.30-19.29.52:633][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2021.04.30-19.29.52:649][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2021.04.30-19.29.52:649][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2021.04.30-19.29.52:649][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2021.04.30-19.29.52:650][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kyle/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2021.04.30-19.29.52:650][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2021.04.30-19.29.52:650][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2021.04.30-19.29.52:684][  0]LogSlate: Using FreeType 2.10.0
-[2021.04.30-19.29.52:697][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2021.04.30-19.29.52:885][  0]LogAssetRegistry: FAssetRegistry took 0.0020 seconds to start up
-[2021.04.30-19.29.53:051][  0]LogInit: Selected Device Profile: [Windows]
-[2021.04.30-19.29.53:338][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2021.04.30-19.29.53:339][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2021.04.30-19.29.53:339][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2021.04.30-19.29.53:339][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2021.04.30-19.29.53:339][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2021.04.30-19.29.53:381][  0]LogNetVersion: FPSMultiplayer 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3764664302)
-[2021.04.30-19.29.55:626][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001F967476980), frame # 0
-[2021.04.30-19.29.55:626][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F9672CFD80), frame # 0
-[2021.04.30-19.29.55:627][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F967349C00), frame # 0
-[2021.04.30-19.29.55:653][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.021005 seconds
-[2021.04.30-19.29.55:657][  0]LogUObjectArray: 15925 objects as part of root set at end of initial load.
-[2021.04.30-19.29.55:657][  0]LogUObjectAllocator: 3977056 out of 0 bytes used by permanent object pool.
-[2021.04.30-19.29.55:657][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2021.04.30-19.29.56:783][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2021.04.30-19.29.56:800][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2021.04.30-19.29.57:068][  0]SourceControl: Source control is disabled
-[2021.04.30-19.29.57:068][  0]SourceControl: Source control is disabled
-[2021.04.30-19.29.57:082][  0]SourceControl: Source control is disabled
-[2021.04.30-19.29.57:095][  0]SourceControl: Source control is disabled
-[2021.04.30-19.29.57:121][  0]SourceControl: Source control is disabled
-[2021.04.30-19.29.57:989][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2021.04.30-19.29.58:068][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2021.04.30-19.29.58:068][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2021.04.30-19.29.58:206][  0]LogOcInput: OculusInput pre-init called
-[2021.04.30-19.29.58:234][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2021.04.30-19.29.58:234][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2021.04.30-19.29.58:365][  0]LogEngine: Initializing Engine...
-[2021.04.30-19.29.58:366][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2021.04.30-19.29.58:366][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
-[2021.04.30-19.29.58:367][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2021.04.30-19.29.58:447][  0]LogInit: Initializing FReadOnlyCVARCache
-[2021.04.30-19.29.58:465][  0]LogAIModule: Creating AISystem for world Untitled
-[2021.04.30-19.29.58:465][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F96F3A7C00), frame # 0
-[2021.04.30-19.29.58:465][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F96F418A40), frame # 0
-[2021.04.30-19.29.58:479][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2021.04.30-19.29.58:479][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2021.04.30-19.29.58:479][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2021.04.30-19.29.58:479][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2021.04.30-19.29.58:479][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2021.04.30-19.29.58:479][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2021.04.30-19.29.58:479][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2021.04.30-19.29.58:479][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2021.04.30-19.29.58:482][  0]LogAudio: Display: Using built-in audio occlusion.
-[2021.04.30-19.29.58:483][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2021.04.30-19.29.58:510][  0]LogAudioMixer: Display: 0: FrontLeft
-[2021.04.30-19.29.58:510][  0]LogAudioMixer: Display: 1: FrontRight
-[2021.04.30-19.29.58:546][  0]LogAudioMixer: Display: Using Audio Device Headphones (4- Arctis 7 Game)
-[2021.04.30-19.29.58:548][  0]LogAudioMixer: Display: Initializing Sound Submixes...
-[2021.04.30-19.29.58:550][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2021.04.30-19.29.58:550][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2021.04.30-19.29.58:551][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2021.04.30-19.29.58:551][  0]LogInit: FAudioDevice initialized.
-[2021.04.30-19.29.58:551][  0]LogNetVersion: Set ProjectVersion to 3.3.1.0. Version Checksum will be recalculated on next use.
-[2021.04.30-19.29.58:615][  0]LogDerivedDataCache: Saved boot cache 0.06s 75MB C:/Users/kyle/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2021.04.30-19.29.58:616][  0]LogInit: Texture streaming: Enabled
-[2021.04.30-19.29.58:668][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2021.04.30-19.29.58:668][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2021.04.30-19.29.58:669][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2021.04.30-19.29.58:723][  0]LogInit: Transaction tracking system initialized
-[2021.04.30-19.29.58:804][  0]BlueprintLog: New page: Editor Load
-[2021.04.30-19.29.59:045][  0]LocalizationService: Localization service is disabled
-[2021.04.30-19.29.59:367][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2021.04.30-19.29.59:367][  0]LogCook: Display: Mobile HDR setting 1
-[2021.04.30-19.29.59:873][  0]LogFileCache: Scanning file cache for directory 'E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Content/' took 0.01s
-[2021.04.30-19.30.00:063][  0]SourceControl: Source control is disabled
-[2021.04.30-19.30.00:063][  0]LogUnrealEdMisc: Loading editor; pre map load, took 16.028
-[2021.04.30-19.30.00:063][  0]Cmd: MAP LOAD FILE="E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Content/FPS/Levels/Rush.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2021.04.30-19.30.00:067][  0]LightingResults: New page: Lighting Build
-[2021.04.30-19.30.00:067][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2021.04.30-19.30.00:068][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.04.30-19.30.00:068][  0]MapCheck: New page: Map Check
-[2021.04.30-19.30.00:068][  0]LightingResults: New page: Lighting Build
-[2021.04.30-19.30.00:082][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001F96F3A7C00), frame # 0
-[2021.04.30-19.30.00:082][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001F96F418A40), frame # 0
-[2021.04.30-19.30.00:083][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
-[2021.04.30-19.30.06:089][  0]LogAIModule: Creating AISystem for world Rush
-[2021.04.30-19.30.06:089][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F902A82400), frame # 0
-[2021.04.30-19.30.06:089][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F9787AD300), frame # 0
-[2021.04.30-19.30.06:116][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2021.04.30-19.30.06:126][  0]LogNavigationDataBuild: Display:    Building NavData:  Name Default class /Script/NavigationSystem.RecastNavMesh agent radius 35.0.
-[2021.04.30-19.30.06:178][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
-[2021.04.30-19.30.06:179][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2021.04.30-19.30.06:179][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.142ms to complete.
-[2021.04.30-19.30.06:179][  0]LogFileHelpers: Loading map 'Rush' took 6.116
-[2021.04.30-19.30.06:181][  0]LogUnrealEdMisc: Total Editor Startup Time, took 22.145
-[2021.04.30-19.30.06:278][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.04.30-19.30.06:283][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.04.30-19.30.06:288][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.04.30-19.30.06:292][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.04.30-19.30.06:309][  0]LogCollectionManager: Loaded 0 collections in 0.000648 seconds
-[2021.04.30-19.30.06:320][  0]LogFileCache: Scanning file cache for directory 'E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Saved/Collections/' took 0.00s
-[2021.04.30-19.30.06:320][  0]LogFileCache: Scanning file cache for directory 'E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Content/Developers/kyle/Collections/' took 0.00s
-[2021.04.30-19.30.06:320][  0]LogFileCache: Scanning file cache for directory 'E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Content/Collections/' took 0.00s
-[2021.04.30-19.30.06:320][  0]LogContentBrowser: Native class hierarchy populated in 0.0071 seconds. Added 3430 classes and 825 folders.
-[2021.04.30-19.30.06:322][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2021.04.30-19.30.06:623][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2021.04.30-19.30.06:624][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
-[2021.04.30-19.30.06:661][  0]LogSlate: Took 0.003352 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2021.04.30-19.30.06:665][  0]LogSlate: Took 0.002927 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2021.04.30-19.30.06:672][  0]LogSlate: Took 0.003581 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2021.04.30-19.30.06:722][  0]LogRenderer: Reallocating scene render targets to support 1288x692 Format 10 NumSamples 1 (Frame:1).
-[2021.04.30-19.30.06:817][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2021.04.30-19.30.06:817][  0]LogLoad: (Engine Initialization) Total time: 22.78 seconds
-[2021.04.30-19.30.06:817][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2021.04.30-19.30.06:870][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2021.04.30-19.30.07:851][ 67]LogAssetRegistry: Asset discovery search completed in 14.9658 seconds
-[2021.04.30-19.30.07:854][ 67]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
-[2021.04.30-19.30.15:576][ 90]LogSlate: Took 0.005570 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2021.04.30-19.30.15:690][ 90]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
-[2021.04.30-19.30.15:690][ 90]LogStaticMesh: Building static mesh ParkUpdatedMesh...
-[2021.04.30-19.30.16:277][ 90]LogTexture: Display: Building textures: HQ_Lightmap1_7 (AutoDXT, 64X64)
-[2021.04.30-19.30.16:277][ 90]LogTexture: Display: Building textures: LQ_Lightmap_1_7 (DXT1, 64X64)
-[2021.04.30-19.30.16:277][ 90]LogTexture: Display: Building textures: LQ_Lightmap_1_4 (DXT1, 256X256)
-[2021.04.30-19.30.16:277][ 90]LogTexture: Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 256X256)
-[2021.04.30-19.30.16:277][ 90]LogTexture: Display: Building textures: LQ_Lightmap_1_6 (DXT1, 512X512)
-[2021.04.30-19.30.16:277][ 90]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024)
-[2021.04.30-19.30.16:277][ 90]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 512X512)
-[2021.04.30-19.30.16:277][ 90]LogTexture: Display: Building textures: HQ_Lightmap1_6 (AutoDXT, 512X512)
-[2021.04.30-19.30.16:277][ 90]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 512X512)
-[2021.04.30-19.30.16:278][ 90]LogTexture: Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 1024X1024)
-[2021.04.30-19.30.16:278][ 90]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
-[2021.04.30-19.30.16:278][ 90]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024)
-[2021.04.30-19.30.16:278][ 90]LogTexture: Display: Building textures: LQ_Lightmap_1_5 (DXT1, 1024X1024)
-[2021.04.30-19.30.16:278][ 90]LogStaticMesh: Built static mesh [0.59s] /Game/MitchelPrototypes/ParkUpdatedMesh.ParkUpdatedMesh
-[2021.04.30-19.30.16:449][ 90]LogAssetEditorSubsystem: Opening Asset editor for World /Game/FPS/Kyle/KylesBuildings.KylesBuildings
-[2021.04.30-19.30.16:461][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
-[2021.04.30-19.30.16:468][ 90]Cmd: MAP LOAD FILE="E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Content/FPS/Kyle/KylesBuildings.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2021.04.30-19.30.16:468][ 90]LightingResults: New page: Lighting Build
-[2021.04.30-19.30.16:468][ 90]LoadErrors: New page: Loading map: KylesBuildings.umap
-[2021.04.30-19.30.16:471][ 90]LogWorld: UWorld::CleanupWorld for Rush, bSessionEnded=true, bCleanupResources=true
-[2021.04.30-19.30.16:472][ 90]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.04.30-19.30.16:472][ 90]MapCheck: New page: Map Check
-[2021.04.30-19.30.16:472][ 90]LightingResults: New page: Lighting Build
-[2021.04.30-19.30.16:487][ 90]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001F902A82400), frame # 90
-[2021.04.30-19.30.16:487][ 90]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001F9787AD300), frame # 90
-[2021.04.30-19.30.16:488][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
-[2021.04.30-19.30.16:516][ 90]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2021.04.30-19.30.16:516][ 90]LogAIModule: Creating AISystem for world KylesBuildings
-[2021.04.30-19.30.16:516][ 90]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F902A83200), frame # 90
-[2021.04.30-19.30.16:516][ 90]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F90161AFC0), frame # 90
-[2021.04.30-19.30.16:530][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
-[2021.04.30-19.30.16:542][ 90]Cmd: MAP CHECKDEP NOCLEARLOG
-[2021.04.30-19.30.16:542][ 90]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.089ms to complete.
-[2021.04.30-19.30.16:543][ 90]LogFileHelpers: Loading map 'KylesBuildings' took 0.075
-[2021.04.30-19.30.24:129][788]Cmd: STAT FPS
-[2021.04.30-19.30.49:333][946]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2021.04.30-19.30.53:428][264]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2021.04.30-19.31.33:999][558]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2021.04.30-19.31.36:864][777]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2021.04.30-19.31.38:669][909]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2021.04.30-19.31.46:364][545]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2021.04.30-19.32.51:700][112]LogLinker: Warning: While loading 'E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Content/FPS/WilliamFolder/BuildingA.umap' failed to load '/Game/FPS/WilliamFolder/BuildingA_BuiltData': Can't find file.
-[2021.04.30-19.32.51:700][112]LogLinker: Warning: While loading 'E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Content/FPS/WilliamFolder/BuildingA.umap' failed to load '/Game/FPS/WilliamFolder/BuildingA_BuiltData': Can't find file.
-[2021.04.30-19.32.51:700][112]LogLinker: Warning: While loading 'E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Content/FPS/WilliamFolder/BuildingA.umap' failed to load '/Game/FPS/WilliamFolder/BuildingA_BuiltData': Can't find file.
-[2021.04.30-19.32.51:700][112]LogLinker: Warning: While loading 'E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Content/FPS/WilliamFolder/BuildingA.umap' failed to load '/Game/FPS/WilliamFolder/BuildingA_BuiltData': Can't find file.
-[2021.04.30-19.32.51:702][112]LogLinker: Warning: While loading 'E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Content/FPS/WilliamFolder/BuildingA.umap' failed to load '/Game/FPS/WilliamFolder/BuildingA_BuiltData': Can't find file.
-[2021.04.30-19.32.51:702][112]LoadErrors: Failed to load /Game/FPS/WilliamFolder/BuildingA_BuiltData.BuildingA_BuiltData Referenced by PersistentLevel
-[2021.04.30-19.32.51:703][112]LogLinker: Warning: While loading 'E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Content/FPS/WilliamFolder/BuildingA.umap' failed to load '/Game/FPS/WilliamFolder/BuildingA_BuiltData': Can't find file.
-[2021.04.30-19.32.51:708][112]LogAssetEditorSubsystem: Opening Asset editor for World /Game/FPS/WilliamFolder/BuildingA.BuildingA
-[2021.04.30-19.32.51:717][112]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
-[2021.04.30-19.32.51:722][112]Cmd: MAP LOAD FILE="E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Content/FPS/WilliamFolder/BuildingA.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2021.04.30-19.32.51:722][112]LightingResults: New page: Lighting Build
-[2021.04.30-19.32.51:722][112]LoadErrors: New page: Loading map: BuildingA.umap
-[2021.04.30-19.32.51:727][112]LogWorld: UWorld::CleanupWorld for KylesBuildings, bSessionEnded=true, bCleanupResources=true
-[2021.04.30-19.32.51:727][112]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.04.30-19.32.51:727][112]MapCheck: New page: Map Check
-[2021.04.30-19.32.51:727][112]LightingResults: New page: Lighting Build
-[2021.04.30-19.32.51:740][112]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001F90161AFC0), frame # 7112
-[2021.04.30-19.32.51:740][112]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001F902A83200), frame # 7112
-[2021.04.30-19.32.51:742][112]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
-[2021.04.30-19.32.51:746][112]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2021.04.30-19.32.51:746][112]LogAIModule: Creating AISystem for world BuildingA
-[2021.04.30-19.32.51:746][112]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F902A83800), frame # 7112
-[2021.04.30-19.32.51:746][112]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F97CE274C0), frame # 7112
-[2021.04.30-19.32.51:757][112]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
-[2021.04.30-19.32.51:769][112]Cmd: MAP CHECKDEP NOCLEARLOG
-[2021.04.30-19.32.51:770][112]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.082ms to complete.
-[2021.04.30-19.32.51:770][112]LogFileHelpers: Loading map 'BuildingA' took 0.047
-[2021.04.30-19.34.12:163][564]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube24)
-[2021.04.30-19.34.12:181][564]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
-[2021.04.30-19.34.13:125][674]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
-[2021.04.30-19.36.18:755][673]LogAssetEditorSubsystem: Opening Asset editor for World /Game/FPS/Kyle/KylesBuildings.KylesBuildings
-[2021.04.30-19.36.18:772][673]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
-[2021.04.30-19.36.24:684][673]LogSlate: Window 'Save Content' being destroyed
-[2021.04.30-19.36.24:705][673]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
-[2021.04.30-19.36.24:728][673]LogSavePackage: Moving 'E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Saved/BuildingA1DB4265940D370A48BBC6888F5D58B70.tmp' to 'E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Content/FPS/WilliamFolder/BuildingA.umap'
-[2021.04.30-19.36.24:739][673]LogFileHelpers: Saving map 'BuildingA' took 0.043
-[2021.04.30-19.36.24:739][673]Cmd: MAP LOAD FILE="E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Content/FPS/Kyle/KylesBuildings.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2021.04.30-19.36.24:739][673]LightingResults: New page: Lighting Build
-[2021.04.30-19.36.24:739][673]LoadErrors: New page: Loading map: KylesBuildings.umap
-[2021.04.30-19.36.24:769][673]LogWorld: UWorld::CleanupWorld for BuildingA, bSessionEnded=true, bCleanupResources=true
-[2021.04.30-19.36.24:769][673]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.04.30-19.36.24:769][673]MapCheck: New page: Map Check
-[2021.04.30-19.36.24:769][673]LightingResults: New page: Lighting Build
-[2021.04.30-19.36.24:779][673]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001F97CE274C0), frame # 31673
-[2021.04.30-19.36.24:779][673]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001F902A83800), frame # 31673
-[2021.04.30-19.36.24:781][673]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
-[2021.04.30-19.36.24:807][673]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2021.04.30-19.36.24:807][673]LogAIModule: Creating AISystem for world KylesBuildings
-[2021.04.30-19.36.24:807][673]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001F97EC74A00), frame # 31673
-[2021.04.30-19.36.24:807][673]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001F900C81940), frame # 31673
-[2021.04.30-19.36.24:821][673]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
-[2021.04.30-19.36.24:833][673]Cmd: MAP CHECKDEP NOCLEARLOG
-[2021.04.30-19.36.24:833][673]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.094ms to complete.
-[2021.04.30-19.36.24:833][673]LogFileHelpers: Loading map 'KylesBuildings' took 0.095
-[2021.04.30-19.36.24:876][673]AssetCheck: New page: Asset Save: BuildingA
-[2021.04.30-19.36.24:876][673]LogContentValidation: Display: Validating World /Game/FPS/WilliamFolder/BuildingA.BuildingA
-[2021.04.30-19.36.50:537][474]LogEditorViewport: Clicking on Actor (LMB): Door_C (Door)
-[2021.04.30-19.37.12:605][809]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
-[2021.04.30-19.37.12:639][809]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
-[2021.04.30-19.37.12:741][809]LogSavePackage: Moving 'E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Saved/KylesBuildingsE1D6744B41D9740320467498FF587510.tmp' to 'E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Content/FPS/Kyle/KylesBuildings.umap'
-[2021.04.30-19.37.12:752][809]LogFileHelpers: Saving map 'KylesBuildings' took 0.122
-[2021.04.30-19.37.13:011][809]LogSavePackage: Moving 'E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Saved/KylesBuildings_BuiltData959BA9E140E7902238EABB8E8F96BD23.tmp' to 'E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Content/FPS/Kyle/KylesBuildings_BuiltData.uasset'
-[2021.04.30-19.37.13:083][809]AssetCheck: New page: Asset Save: multiple assets
-[2021.04.30-19.37.13:083][809]LogContentValidation: Display: Validating World /Game/FPS/Kyle/KylesBuildings.KylesBuildings
-[2021.04.30-19.37.13:083][809]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FPS/Kyle/KylesBuildings_BuiltData.KylesBuildings_BuiltData
+[2021.04.30-23.21.59:122][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.04.30-23.21.59:122][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.04.30-23.21.59:123][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Saved/Config/Windows/Engine.ini]
+[2021.04.30-23.21.59:123][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.04.30-23.21.59:123][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2021.04.30-23.21.59:123][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
+[2021.04.30-23.21.59:123][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Saved/Config/Windows/Engine.ini]
+[2021.04.30-23.21.59:123][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Saved/Config/Windows/Engine.ini]
+[2021.04.30-23.21.59:123][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.04.30-23.21.59:123][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.04.30-23.21.59:123][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.04.30-23.21.59:123][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.04.30-23.21.59:123][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.04.30-23.21.59:123][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.04.30-23.21.59:123][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.04.30-23.21.59:123][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.04.30-23.21.59:123][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.04.30-23.21.59:123][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.04.30-23.21.59:123][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.04.30-23.21.59:123][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.04.30-23.21.59:123][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.04.30-23.21.59:123][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.04.30-23.21.59:123][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Saved/Config/Windows/Engine.ini]
+[2021.04.30-23.21.59:123][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.04.30-23.21.59:123][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.04.30-23.21.59:123][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.04.30-23.21.59:123][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.04.30-23.21.59:123][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.04.30-23.21.59:123][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.04.30-23.21.59:123][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.04.30-23.21.59:123][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.04.30-23.21.59:123][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.04.30-23.21.59:123][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.04.30-23.21.59:123][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.04.30-23.21.59:123][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.04.30-23.21.59:123][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.04.30-23.21.59:123][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Saved/Config/Windows/Engine.ini]
+[2021.04.30-23.21.59:123][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Saved/Config/Windows/Engine.ini]
+[2021.04.30-23.21.59:126][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Saved/Config/Windows/Scalability.ini]
+[2021.04.30-23.21.59:126][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.04.30-23.21.59:126][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.04.30-23.21.59:126][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Saved/Config/Windows/Scalability.ini]
+[2021.04.30-23.21.59:126][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.04.30-23.21.59:126][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Saved/Config/Windows/Scalability.ini]
+[2021.04.30-23.21.59:126][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.04.30-23.21.59:126][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.04.30-23.21.59:126][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.04.30-23.21.59:126][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.04.30-23.21.59:126][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.04.30-23.21.59:126][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.04.30-23.21.59:126][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.04.30-23.21.59:126][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.04.30-23.21.59:126][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.04.30-23.21.59:126][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.04.30-23.21.59:126][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.04.30-23.21.59:126][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.04.30-23.21.59:126][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.04.30-23.21.59:126][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.04.30-23.21.59:126][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.04.30-23.21.59:126][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.04.30-23.21.59:126][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.04.30-23.21.59:126][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.04.30-23.21.59:126][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Saved/Config/Windows/Scalability.ini]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Saved/Config/Windows/Scalability.ini]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Saved/Config/Windows/Scalability.ini]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Saved/Config/Windows/Scalability.ini]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Saved/Config/Windows/Scalability.ini]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.04.30-23.21.59:127][  0]LogInit: Selected Device Profile: [Windows]
+[2021.04.30-23.21.59:127][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.04.30-23.21.59:127][  0]LogHAL: Display: Platform has ~ 16 GB [17106984960 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.04.30-23.21.59:127][  0]LogInit: Going up to parent DeviceProfile []
+[2021.04.30-23.21.59:127][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Saved/Config/Windows/Scalability.ini]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Saved/Config/Windows/Scalability.ini]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Saved/Config/Windows/Scalability.ini]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Saved/Config/Windows/Scalability.ini]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.04.30-23.21.59:127][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.04.30-23.21.59:128][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.04.30-23.21.59:128][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.04.30-23.21.59:128][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.04.30-23.21.59:128][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.04.30-23.21.59:128][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.04.30-23.21.59:128][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.04.30-23.21.59:128][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.04.30-23.21.59:128][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.04.30-23.21.59:128][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.04.30-23.21.59:128][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.04.30-23.21.59:128][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.04.30-23.21.59:128][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.04.30-23.21.59:128][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.04.30-23.21.59:128][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.04.30-23.21.59:128][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Saved/Config/Windows/Scalability.ini]
+[2021.04.30-23.21.59:128][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.04.30-23.21.59:128][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.04.30-23.21.59:128][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.04.30-23.21.59:128][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.04.30-23.21.59:128][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.04.30-23.21.59:128][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.04.30-23.21.59:128][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.04.30-23.21.59:128][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.04.30-23.21.59:128][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.04.30-23.21.59:128][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Saved/Config/Windows/Scalability.ini]
+[2021.04.30-23.21.59:128][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.04.30-23.21.59:128][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.04.30-23.21.59:128][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.04.30-23.21.59:128][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.04.30-23.21.59:128][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.04.30-23.21.59:128][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.04.30-23.21.59:128][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.04.30-23.21.59:128][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.04.30-23.21.59:128][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.04.30-23.21.59:128][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.04.30-23.21.59:128][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.04.30-23.21.59:128][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.04.30-23.21.59:128][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.04.30-23.21.59:128][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.04.30-23.21.59:128][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.04.30-23.21.59:128][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.04.30-23.21.59:128][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.04.30-23.21.59:128][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.04.30-23.21.59:128][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.04.30-23.21.59:128][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.04.30-23.21.59:128][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.04.30-23.21.59:128][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.04.30-23.21.59:128][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.04.30-23.21.59:128][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.04.30-23.21.59:128][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.04.30-23.21.59:128][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.04.30-23.21.59:128][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Saved/Config/Windows/Scalability.ini]
+[2021.04.30-23.21.59:128][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.04.30-23.21.59:128][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.04.30-23.21.59:128][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Saved/Config/Windows/Scalability.ini]
+[2021.04.30-23.21.59:128][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.04.30-23.21.59:128][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.04.30-23.21.59:128][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.04.30-23.21.59:128][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.04.30-23.21.59:128][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.04.30-23.21.59:128][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.04.30-23.21.59:128][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.04.30-23.21.59:128][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.04.30-23.21.59:128][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.04.30-23.21.59:128][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.04.30-23.21.59:128][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.04.30-23.21.59:128][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Saved/Config/Windows/Engine.ini]
+[2021.04.30-23.21.59:128][  0]LogInit: Computer: DESKTOP-RBTKJ0E
+[2021.04.30-23.21.59:128][  0]LogInit: User: kyle
+[2021.04.30-23.21.59:128][  0]LogInit: CPU Page size=4096, Cores=8
+[2021.04.30-23.21.59:128][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.04.30-23.21.59:128][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2021.04.30-23.21.59:128][  0]LogMemory: Platform Memory Stats for Windows
+[2021.04.30-23.21.59:128][  0]LogMemory: Process Physical Memory: 118.15 MB used, 118.15 MB peak
+[2021.04.30-23.21.59:128][  0]LogMemory: Process Virtual Memory: 98.16 MB used, 98.16 MB peak
+[2021.04.30-23.21.59:128][  0]LogMemory: Physical Memory: 7167.28 MB used,  9147.21 MB free, 16314.49 MB total
+[2021.04.30-23.21.59:128][  0]LogMemory: Virtual Memory: 5188.00 MB used,  134212536.00 MB free, 134217728.00 MB total
+[2021.04.30-23.21.59:132][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.04.30-23.21.59:162][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.04.30-23.21.59:163][  0]LogInit: Using OS detected language (en-US).
+[2021.04.30-23.21.59:163][  0]LogInit: Using OS detected locale (en-US).
+[2021.04.30-23.21.59:165][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2021.04.30-23.21.59:280][  0]LogInit: Setting process to per monitor DPI aware
+[2021.04.30-23.21.59:305][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.04.30-23.21.59:305][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.04.30-23.21.59:460][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.04.30-23.21.59:460][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.04.30-23.21.59:460][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.04.30-23.21.59:460][  0]LogD3D11RHI: D3D11 adapters:
+[2021.04.30-23.21.59:540][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2021.04.30-23.21.59:540][  0]LogD3D11RHI:       8088/0/8157 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2021.04.30-23.21.59:542][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.04.30-23.21.59:542][  0]LogD3D11RHI:       0/0/8157 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.04.30-23.21.59:542][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.04.30-23.21.59:546][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.04.30-23.21.59:546][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2021.04.30-23.21.59:546][  0]LogWindows: EnumDisplayDevices:
+[2021.04.30-23.21.59:546][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2021.04.30-23.21.59:546][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2021.04.30-23.21.59:546][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2021.04.30-23.21.59:546][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2021.04.30-23.21.59:546][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2021.04.30-23.21.59:546][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2021.04.30-23.21.59:546][  0]LogD3D11RHI:   Driver Version: 466.27 (internal:27.21.14.6627, unified:466.27)
+[2021.04.30-23.21.59:546][  0]LogD3D11RHI:      Driver Date: 4-23-2021
+[2021.04.30-23.21.59:546][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2021.04.30-23.21.59:611][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.04.30-23.21.59:611][  0]LogD3D11RHI: Async texture creation enabled
+[2021.04.30-23.21.59:611][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.04.30-23.21.59:638][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.04.30-23.21.59:835][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.04.30-23.21.59:851][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.04.30-23.21.59:851][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.04.30-23.21.59:851][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.04.30-23.21.59:851][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.04.30-23.21.59:851][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.04.30-23.21.59:851][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.04.30-23.21.59:851][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.04.30-23.21.59:851][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.04.30-23.21.59:851][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.04.30-23.21.59:851][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.04.30-23.21.59:868][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.04.30-23.21.59:868][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.04.30-23.21.59:876][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.04.30-23.21.59:882][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.04.30-23.21.59:889][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.04.30-23.21.59:896][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.04.30-23.21.59:903][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.04.30-23.21.59:910][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.04.30-23.21.59:917][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.04.30-23.21.59:936][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.04.30-23.21.59:936][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.04.30-23.21.59:947][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.04.30-23.21.59:947][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.04.30-23.21.59:955][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.04.30-23.21.59:962][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.04.30-23.21.59:969][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.04.30-23.21.59:976][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.04.30-23.21.59:976][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.04.30-23.21.59:981][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.04.30-23.22.00:022][  0]LogShaderCompilers: Guid format shader working directory is -55 characters bigger than the processId version (E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Intermediate/Shaders/WorkingDirectory/17160/).
+[2021.04.30-23.22.00:022][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/kyle/AppData/Local/Temp/UnrealShaderWorkingDir/A864A85441BA6032E16B8592E423AA7D/'.
+[2021.04.30-23.22.00:022][  0]LogXGEController: Cleaning working directory: C:/Users/kyle/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2021.04.30-23.22.00:022][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.04.30-23.22.00:022][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.04.30-23.22.00:022][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.04.30-23.22.00:536][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.04.30-23.22.00:580][  0]LogDerivedDataCache: Loaded boot cache 0.04s 75MB C:/Users/kyle/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.04.30-23.22.00:580][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/kyle/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.04.30-23.22.00:580][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.04.30-23.22.00:580][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.04.30-23.22.00:580][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.04.30-23.22.00:581][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.04.30-23.22.00:591][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.04.30-23.22.00:591][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.04.30-23.22.00:591][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.04.30-23.22.00:593][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kyle/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.04.30-23.22.00:593][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.04.30-23.22.00:593][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.04.30-23.22.00:633][  0]LogSlate: Using FreeType 2.10.0
+[2021.04.30-23.22.00:633][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.04.30-23.22.00:652][  0]LogAssetRegistry: FAssetRegistry took 0.0026 seconds to start up
+[2021.04.30-23.22.00:820][  0]LogInit: Selected Device Profile: [Windows]
+[2021.04.30-23.22.00:896][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.04.30-23.22.00:896][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.04.30-23.22.00:896][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.04.30-23.22.00:896][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.04.30-23.22.00:896][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.04.30-23.22.00:909][  0]LogNetVersion: FPSMultiplayer 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3764664302)
+[2021.04.30-23.22.01:198][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000011303FDC2C0), frame # 0
+[2021.04.30-23.22.01:199][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000011304DF0B80), frame # 0
+[2021.04.30-23.22.01:200][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000011304E5A600), frame # 0
+[2021.04.30-23.22.01:231][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.025795 seconds
+[2021.04.30-23.22.01:235][  0]LogUObjectArray: 15925 objects as part of root set at end of initial load.
+[2021.04.30-23.22.01:235][  0]LogUObjectAllocator: 3977056 out of 0 bytes used by permanent object pool.
+[2021.04.30-23.22.01:235][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.04.30-23.22.01:468][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.04.30-23.22.01:472][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.04.30-23.22.01:522][  0]SourceControl: Source control is disabled
+[2021.04.30-23.22.01:522][  0]SourceControl: Source control is disabled
+[2021.04.30-23.22.01:525][  0]SourceControl: Source control is disabled
+[2021.04.30-23.22.01:526][  0]SourceControl: Source control is disabled
+[2021.04.30-23.22.01:531][  0]SourceControl: Source control is disabled
+[2021.04.30-23.22.01:690][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.04.30-23.22.01:702][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.04.30-23.22.01:702][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.04.30-23.22.01:732][  0]LogOcInput: OculusInput pre-init called
+[2021.04.30-23.22.01:739][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.04.30-23.22.01:739][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.04.30-23.22.01:781][  0]LogEngine: Initializing Engine...
+[2021.04.30-23.22.01:782][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.04.30-23.22.01:782][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.04.30-23.22.01:783][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.04.30-23.22.01:870][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.04.30-23.22.01:876][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.04.30-23.22.01:876][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001130731FC00), frame # 0
+[2021.04.30-23.22.01:876][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001130737CF40), frame # 0
+[2021.04.30-23.22.01:893][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.30-23.22.01:893][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.30-23.22.01:893][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.30-23.22.01:893][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.30-23.22.01:893][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.30-23.22.01:893][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.30-23.22.01:893][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.30-23.22.01:893][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.30-23.22.01:894][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.30-23.22.01:894][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.30-23.22.01:902][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.30-23.22.01:902][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.04.30-23.22.01:963][  0]LogAudioMixer: Display: Using Audio Device Headphones (4- Arctis 7 Game)
+[2021.04.30-23.22.01:966][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.30-23.22.01:967][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.30-23.22.01:967][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.30-23.22.01:968][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.30-23.22.01:969][  0]LogInit: FAudioDevice initialized.
+[2021.04.30-23.22.01:969][  0]LogNetVersion: Set ProjectVersion to 3.3.1.0. Version Checksum will be recalculated on next use.
+[2021.04.30-23.22.02:031][  0]LogDerivedDataCache: Saved boot cache 0.06s 75MB C:/Users/kyle/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.04.30-23.22.02:031][  0]LogInit: Texture streaming: Enabled
+[2021.04.30-23.22.02:043][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.04.30-23.22.02:043][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.04.30-23.22.02:043][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.04.30-23.22.02:074][  0]LogInit: Transaction tracking system initialized
+[2021.04.30-23.22.02:091][  0]BlueprintLog: New page: Editor Load
+[2021.04.30-23.22.02:137][  0]LocalizationService: Localization service is disabled
+[2021.04.30-23.22.02:241][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.04.30-23.22.02:241][  0]LogCook: Display: Mobile HDR setting 1
+[2021.04.30-23.22.02:322][  0]LogFileCache: Scanning file cache for directory 'E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Content/' took 0.02s
+[2021.04.30-23.22.02:444][  0]SourceControl: Source control is disabled
+[2021.04.30-23.22.02:444][  0]LogUnrealEdMisc: Loading editor; pre map load, took 4.776
+[2021.04.30-23.22.02:444][  0]Cmd: MAP LOAD FILE="E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Content/FPS/Levels/Rush.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.04.30-23.22.02:444][  0]LightingResults: New page: Lighting Build
+[2021.04.30-23.22.02:445][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.04.30-23.22.02:445][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.30-23.22.02:445][  0]MapCheck: New page: Map Check
+[2021.04.30-23.22.02:445][  0]LightingResults: New page: Lighting Build
+[2021.04.30-23.22.02:464][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001130731FC00), frame # 0
+[2021.04.30-23.22.02:464][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001130737CF40), frame # 0
+[2021.04.30-23.22.02:465][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2021.04.30-23.22.05:416][  0]LogAIModule: Creating AISystem for world Rush
+[2021.04.30-23.22.05:416][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001131FB23E00), frame # 0
+[2021.04.30-23.22.05:416][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001131EC05D00), frame # 0
+[2021.04.30-23.22.05:435][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.04.30-23.22.05:447][  0]LogNavigationDataBuild: Display:    Building NavData:  Name Default class /Script/NavigationSystem.RecastNavMesh agent radius 35.0.
+[2021.04.30-23.22.05:501][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2021.04.30-23.22.05:502][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.04.30-23.22.05:502][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.147ms to complete.
+[2021.04.30-23.22.05:502][  0]LogFileHelpers: Loading map 'Rush' took 3.057
+[2021.04.30-23.22.05:504][  0]LogUnrealEdMisc: Total Editor Startup Time, took 7.835
+[2021.04.30-23.22.05:610][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.30-23.22.05:615][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.30-23.22.05:619][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.30-23.22.05:624][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.30-23.22.05:626][  0]LogCollectionManager: Loaded 0 collections in 0.000710 seconds
+[2021.04.30-23.22.05:640][  0]LogFileCache: Scanning file cache for directory 'E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Saved/Collections/' took 0.00s
+[2021.04.30-23.22.05:640][  0]LogFileCache: Scanning file cache for directory 'E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Content/Developers/kyle/Collections/' took 0.00s
+[2021.04.30-23.22.05:640][  0]LogFileCache: Scanning file cache for directory 'E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Content/Collections/' took 0.00s
+[2021.04.30-23.22.05:640][  0]LogContentBrowser: Native class hierarchy populated in 0.0072 seconds. Added 3430 classes and 825 folders.
+[2021.04.30-23.22.05:641][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.04.30-23.22.05:699][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.04.30-23.22.05:700][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
+[2021.04.30-23.22.05:729][  0]LogSlate: Took 0.000201 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.04.30-23.22.05:731][  0]LogSlate: Took 0.000149 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.04.30-23.22.05:734][  0]LogSlate: Took 0.000139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.04.30-23.22.05:783][  0]LogRenderer: Reallocating scene render targets to support 1288x692 Format 10 NumSamples 1 (Frame:1).
+[2021.04.30-23.22.05:871][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.04.30-23.22.05:871][  0]LogLoad: (Engine Initialization) Total time: 8.20 seconds
+[2021.04.30-23.22.05:871][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.04.30-23.22.05:914][  0]LogAssetRegistry: Asset discovery search completed in 5.2617 seconds
+[2021.04.30-23.22.05:917][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2021.04.30-23.22.05:928][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.04.30-23.22.31:759][ 52]LogSlate: Took 0.000227 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.04.30-23.22.31:848][ 52]LogStaticMesh: Building static mesh Building4...
+[2021.04.30-23.22.31:876][ 52]LogStaticMesh: Built static mesh [0.03s] /Game/MitchelPrototypes/Building4.Building4
+[2021.04.30-23.22.31:878][ 52]LogStaticMesh: Building static mesh Building3...
+[2021.04.30-23.22.31:954][ 52]LogStaticMesh: Built static mesh [0.08s] /Game/MitchelPrototypes/Building3.Building3
+[2021.04.30-23.22.31:961][ 52]LogStaticMesh: Building static mesh Building2...
+[2021.04.30-23.22.32:004][ 52]LogStaticMesh: Built static mesh [0.04s] /Game/MitchelPrototypes/Building2.Building2
+[2021.04.30-23.22.32:008][ 52]LogStaticMesh: Building static mesh Building11...
+[2021.04.30-23.22.32:063][ 52]LogStaticMesh: Built static mesh [0.06s] /Game/MitchelPrototypes/Building11.Building11
+[2021.04.30-23.22.32:074][ 52]LogStaticMesh: Building static mesh Building10...
+[2021.04.30-23.22.32:152][ 52]LogStaticMesh: Built static mesh [0.08s] /Game/MitchelPrototypes/Building10.Building10
+[2021.04.30-23.22.32:158][ 52]LogStaticMesh: Building static mesh Building1...
+[2021.04.30-23.22.32:555][ 52]LogStaticMesh: Built static mesh [0.40s] /Game/MitchelPrototypes/Building1.Building1
+[2021.04.30-23.22.32:608][ 52]LogStaticMesh: Building static mesh SimpleWindow...
+[2021.04.30-23.22.32:612][ 52]LogStaticMesh: Built static mesh [0.00s] /Game/Meshes/SimpleWindow.SimpleWindow
+[2021.04.30-23.22.32:626][ 52]LogStaticMesh: Building static mesh Building6...
+[2021.04.30-23.22.32:716][ 52]LogStaticMesh: Built static mesh [0.09s] /Game/MitchelPrototypes/Building6.Building6
+[2021.04.30-23.22.32:724][ 52]LogStaticMesh: Building static mesh Building8...
+[2021.04.30-23.22.32:800][ 52]LogStaticMesh: Built static mesh [0.08s] /Game/MitchelPrototypes/Building8.Building8
+[2021.04.30-23.22.32:809][ 52]LogStaticMesh: Building static mesh Building9...
+[2021.04.30-23.22.32:892][ 52]LogStaticMesh: Built static mesh [0.08s] /Game/MitchelPrototypes/Building9.Building9
+[2021.04.30-23.22.32:907][ 52]LogStaticMesh: Building static mesh Building5Updated...
+[2021.04.30-23.22.33:028][ 52]LogStaticMesh: Built static mesh [0.12s] /Game/MitchelPrototypes/Building5Updated.Building5Updated
+[2021.04.30-23.22.33:048][ 52]LogStaticMesh: Building static mesh Building7...
+[2021.04.30-23.22.33:154][ 52]LogStaticMesh: Built static mesh [0.11s] /Game/MitchelPrototypes/Building7.Building7
+[2021.04.30-23.22.33:197][ 52]LogAssetEditorSubsystem: Opening Asset editor for World /Game/FPS/Kyle/KylesBuildings.KylesBuildings
+[2021.04.30-23.22.33:210][ 52]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2021.04.30-23.22.33:212][ 52]Cmd: MAP LOAD FILE="E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Content/FPS/Kyle/KylesBuildings.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.04.30-23.22.33:212][ 52]LightingResults: New page: Lighting Build
+[2021.04.30-23.22.33:213][ 52]LoadErrors: New page: Loading map: KylesBuildings.umap
+[2021.04.30-23.22.33:216][ 52]LogWorld: UWorld::CleanupWorld for Rush, bSessionEnded=true, bCleanupResources=true
+[2021.04.30-23.22.33:216][ 52]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.30-23.22.33:216][ 52]MapCheck: New page: Map Check
+[2021.04.30-23.22.33:216][ 52]LightingResults: New page: Lighting Build
+[2021.04.30-23.22.33:231][ 52]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001131FB23E00), frame # 1052
+[2021.04.30-23.22.33:231][ 52]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001131EC05D00), frame # 1052
+[2021.04.30-23.22.33:232][ 52]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2021.04.30-23.22.33:259][ 52]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.04.30-23.22.33:259][ 52]LogAIModule: Creating AISystem for world KylesBuildings
+[2021.04.30-23.22.33:259][ 52]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000113249C9E00), frame # 1052
+[2021.04.30-23.22.33:259][ 52]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000011322D1A340), frame # 1052
+[2021.04.30-23.22.33:274][ 52]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2021.04.30-23.22.33:287][ 52]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.04.30-23.22.33:288][ 52]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.108ms to complete.
+[2021.04.30-23.22.33:288][ 52]LogFileHelpers: Loading map 'KylesBuildings' took 0.075
+[2021.04.30-23.22.34:508][129]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Building26)
+[2021.04.30-23.22.36:442][312]Cmd: STAT FPS
+[2021.04.30-23.22.50:811][281]LogTemp: Repeating last play command: Selected Viewport
+[2021.04.30-23.22.50:818][281]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.04.30-23.22.50:818][281]PIE: New page: PIE session: KylesBuildings (Apr 30, 2021, 3:22:50 PM)
+[2021.04.30-23.22.50:819][281]LogOnline: OSS: Creating online subsystem instance for: Steam
+[2021.04.30-23.22.50:819][281]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2021.04.30-23.22.50:820][281]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.04.30-23.22.50:821][281]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.04.30-23.22.50:821][281]LogPlayLevel: Creating play world package: /Game/FPS/Kyle/UEDPIE_0_KylesBuildings
+[2021.04.30-23.22.50:847][281]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026661s)
+[2021.04.30-23.22.50:848][281]LogAIModule: Creating AISystem for world KylesBuildings
+[2021.04.30-23.22.50:848][281]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000113AA4BFE00), frame # 2281
+[2021.04.30-23.22.50:848][281]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001131FAE5580), frame # 2281
+[2021.04.30-23.22.50:848][281]LogPlayLevel: PIE: World Init took: (0.000849s)
+[2021.04.30-23.22.50:848][281]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FPS/Kyle/KylesBuildings.KylesBuildings to /Game/FPS/Kyle/UEDPIE_0_KylesBuildings.KylesBuildings (0.027662s)
+[2021.04.30-23.22.50:858][281]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2021.04.30-23.22.50:860][281]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.30-23.22.50:860][281]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.30-23.22.50:860][281]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.30-23.22.50:860][281]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.30-23.22.50:860][281]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.30-23.22.50:860][281]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.30-23.22.50:860][281]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.30-23.22.50:860][281]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.30-23.22.50:861][281]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.30-23.22.50:861][281]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.30-23.22.50:864][281]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.30-23.22.50:864][281]LogAudioMixer: Display: 1: FrontRight
+[2021.04.30-23.22.50:888][281]LogAudioMixer: Display: Using Audio Device Headphones (4- Arctis 7 Game)
+[2021.04.30-23.22.50:888][281]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.30-23.22.50:888][281]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.30-23.22.50:888][281]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.30-23.22.50:889][281]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.30-23.22.50:898][281]LogInit: FAudioDevice initialized.
+[2021.04.30-23.22.50:908][281]LogLoad: Game class is 'FPS_Conquest_GM_C'
+[2021.04.30-23.22.50:949][281]LogWorld: Bringing World /Game/FPS/Kyle/UEDPIE_0_KylesBuildings.KylesBuildings up for play (max tick rate 0) at 2021.04.30-19.22.50
+[2021.04.30-23.22.50:951][281]LogWorld: Bringing up level for play took: 0.041916
+[2021.04.30-23.22.50:951][281]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2021.04.30-23.22.50:952][281]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.04.30-23.22.50:953][281]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2021.04.30-23.22.50:956][281]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.04.30-23.22.50:958][281]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.04.30-23.22.50:958][281]PIE: Server logged in
+[2021.04.30-23.22.50:960][281]PIE: Play in editor total start time 0.142 seconds.
+[2021.04.30-23.22.54:659][677]LogScript: Warning: Script Msg: DestroySession - Invalid player state
+[2021.04.30-23.22.54:659][677]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.30-23.22.54:659][677]LogWorld: BeginTearingDown for /Game/FPS/Kyle/UEDPIE_0_KylesBuildings
+[2021.04.30-23.22.54:659][677]LogWorld: UWorld::CleanupWorld for KylesBuildings, bSessionEnded=true, bCleanupResources=true
+[2021.04.30-23.22.54:663][677]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.30-23.22.54:672][677]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.04.30-23.22.54:675][677]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.30-23.22.54:684][677]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.30-23.22.54:697][677]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001131FAE5580), frame # 2677
+[2021.04.30-23.22.54:697][677]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000113AA4BFE00), frame # 2677
+[2021.04.30-23.22.54:699][677]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2021.04.30-23.22.54:723][679]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2021.04.30-23.22.56:091][824]MapCheck: New page: Map Check
+[2021.04.30-23.22.56:103][824]Cmd: MAP REBUILD ALLVISIBLE
+[2021.04.30-23.22.56:103][824]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2021.04.30-23.22.56:228][824]LogWorld: UWorld::CleanupWorld for KylesBuildings, bSessionEnded=true, bCleanupResources=false
+[2021.04.30-23.22.56:272][824]LightingResults: New page: Lighting Build - Apr 30, 2021, 3:22:56 PM
+[2021.04.30-23.22.56:380][824]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2021.04.30-23.22.56:423][824]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2021.04.30-23.22.56:432][824]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2021.04.30-23.22.56:947][824]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2021.04.30-23.22.56:947][824]LogSwarmInterface: [TryOpenConnection] Local Process ID is 17160
+[2021.04.30-23.22.59:238][824]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2021.04.30-23.22.59:238][824]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2021.04.30-23.22.59:238][824]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2021.04.30-23.22.59:238][824]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2021.04.30-23.22.59:238][824]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2021.04.30-23.22.59:389][824]LogEditorBuildUtils: Build time 0:03
+[2021.04.30-23.22.59:534][827]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2021.04.30-23.23.04:149][131]LightingResults: Warning: SimpleWindow Object has overlapping UVs.
+[2021.04.30-23.23.04:149][131]LightingResults: SimpleWindow Lightmap UV are overlapping by 80.0%. Please adjust content - Enable Error Coloring to visualize.
+[2021.04.30-23.23.06:032][237]Job is a success!
+[2021.04.30-23.23.06:215][238]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.036s
+[2021.04.30-23.23.06:215][238]LogVolumetricLightmapImport:      Indirection Texture 32x32x16 = 0.1Mb
+[2021.04.30-23.23.06:215][238]LogVolumetricLightmapImport:      BrickData (all levels) 2.3Mb (trimmed 0.0Mb due to 0.010000 MinBrickError)
+[2021.04.30-23.23.06:215][238]LogVolumetricLightmapImport:      Bricks at depth
+[2021.04.30-23.23.06:215][238]LogVolumetricLightmapImport:          0: 1.4% covering 100.0% of volume
+[2021.04.30-23.23.06:215][238]LogVolumetricLightmapImport:          1: 7.1% covering 8.2% of volume
+[2021.04.30-23.23.06:215][238]LogVolumetricLightmapImport:          2: 91.5% covering 1.6% of volume
+[2021.04.30-23.23.06:215][238]LogVolumetricLightmapImport:      Bricks in each level
+[2021.04.30-23.23.06:215][238]LogVolumetricLightmapImport:          KylesBuildings 			 295 bricks 	 100.0% (Persistent Level)
+[2021.04.30-23.23.06:683][238]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2021.04.30-23.23.06:683][238]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2021.04.30-23.23.06:683][238]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
+[2021.04.30-23.23.06:683][238]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
+[2021.04.30-23.23.06:683][238]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 512X512)
+[2021.04.30-23.23.06:683][238]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 512X512)
+[2021.04.30-23.23.06:683][238]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 256X256)
+[2021.04.30-23.23.06:683][238]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 256X256)
+[2021.04.30-23.23.06:683][238]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 1024X1024)
+[2021.04.30-23.23.06:683][238]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 1024X1024)
+[2021.04.30-23.23.06:683][238]LogTexture: Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 64X64)
+[2021.04.30-23.23.06:683][238]LogTexture: Display: Building textures: LQ_Lightmap_0_6 (DXT1, 64X64)
+[2021.04.30-23.23.06:865][238]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 32X32)
+[2021.04.30-23.23.06:865][238]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (BGRA8, 128X128)
+[2021.04.30-23.23.06:865][238]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (BGRA8, 256X256)
+[2021.04.30-23.23.06:865][238]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (BGRA8, 1024X256)
+[2021.04.30-23.23.06:865][238]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 1024X1024)
+[2021.04.30-23.23.06:865][238]Lightmass on DESKTOP-RBTKJ0E: 6.85 sec total, 196 ms importing, 113 ms setup, 1.59 sec photons, 4.92 sec processing, 0 ms extra exporting [665/665 mappings]. Threads: 1:13 min total, 35.6 sec processing.
+[2021.04.30-23.23.06:871][238]LogStaticLightingSystem: KylesBuildings_BuiltData storing lightmap data for 208 meshes in 10 LightmapResourceClusters (20.8 Meshes per cluster).
+[2021.04.30-23.23.06:891][238]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2021.04.30-23.23.06:914][238]LogStaticLightingSystem: Illumination: 10.6 sec (366 ms encoding lightmaps, 114 ms encoding shadowmaps)
+[2021.04.30-23.23.06:914][238]LogStaticLightingSystem: Lightmap texture memory:  6.6 MB (6.1 MB streaming, 0.5 MB non-streaming), 12 textures
+[2021.04.30-23.23.06:914][238]LogStaticLightingSystem: Shadowmap texture memory: 7.1 MB (6.8 MB streaming, 0.3 MB non-streaming), 5 textures
+[2021.04.30-23.23.07:248][238]DumpUnbuiltLightIteractions
+[2021.04.30-23.23.07:248][238]Lights with unbuilt interactions: 0
+[2021.04.30-23.23.07:248][238]
+[2021.04.30-23.23.07:248][238]Primitives with unbuilt interactions: 0
+[2021.04.30-23.23.07:291][238]LogSlate: Took 0.006962 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.04.30-23.23.07:292][239]Cmd: MAP CHECK NOTIFYRESULTS
+[2021.04.30-23.23.07:292][239]MapCheck: New page: KylesBuildings - Apr 30, 2021, 3:23:07 PM
+[2021.04.30-23.23.07:293][239]MapCheck: Warning: FancyDoorway10_Blueprint Static mesh actor has NULL StaticMesh property 
+[2021.04.30-23.23.07:294][239]MapCheck: Warning: FancyDoorway10_Blueprint2 Static mesh actor has NULL StaticMesh property 
+[2021.04.30-23.23.07:294][239]MapCheck: Warning: FancyDoorway10_Blueprint3 Static mesh actor has NULL StaticMesh property 
+[2021.04.30-23.23.07:294][239]MapCheck: Warning: FancyDoorway10_Blueprint4 Static mesh actor has NULL StaticMesh property 
+[2021.04.30-23.23.07:294][239]MapCheck: Warning: FancyDoorway10_Blueprint5 Static mesh actor has NULL StaticMesh property 
+[2021.04.30-23.23.07:294][239]MapCheck: Warning: FancyDoorway10_Blueprint6 Static mesh actor has NULL StaticMesh property 
+[2021.04.30-23.23.07:294][239]MapCheck: Warning: FancyDoorway10_Blueprint7 Static mesh actor has NULL StaticMesh property 
+[2021.04.30-23.23.07:294][239]MapCheck: Warning: FancyDoorway10_Blueprint8 Static mesh actor has NULL StaticMesh property 
+[2021.04.30-23.23.07:294][239]MapCheck: Warning: FancyDoorway10_Blueprint9 Static mesh actor has NULL StaticMesh property 
+[2021.04.30-23.23.07:294][239]MapCheck: Warning: FancyDoorway10_Blueprint10 Static mesh actor has NULL StaticMesh property 
+[2021.04.30-23.23.07:294][239]MapCheck: Warning: FancyDoorway10_Blueprint11 Static mesh actor has NULL StaticMesh property 
+[2021.04.30-23.23.07:294][239]MapCheck: Warning: FancyDoorway10_Blueprint12 Static mesh actor has NULL StaticMesh property 
+[2021.04.30-23.23.07:294][239]MapCheck: Map check complete: 0 Error(s), 12 Warning(s), took 1.6ms to complete.
+[2021.04.30-23.23.23:747][339]LogSlate: Window 'Message Log' being destroyed
+[2021.04.30-23.23.23:750][339]LogSlate: Window 'Message Log' being destroyed
+[2021.04.30-23.23.28:780][709]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.04.30-23.23.30:121][853]LogSlate: Took 0.000442 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.04.30-23.23.36:108][366]Cmd: DELETE
+[2021.04.30-23.23.36:108][366]Cmd: ACTOR DELETE
+[2021.04.30-23.23.36:119][366]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.30-23.23.36:128][366]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2021.04.30-23.23.36:132][366]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2021.04.30-23.23.50:439][171]MapCheck: New page: Map Check
+[2021.04.30-23.23.50:453][171]Cmd: MAP REBUILD ALLVISIBLE
+[2021.04.30-23.23.50:453][171]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2021.04.30-23.23.50:580][171]LogWorld: UWorld::CleanupWorld for KylesBuildings, bSessionEnded=true, bCleanupResources=false
+[2021.04.30-23.23.50:625][171]LightingResults: New page: Lighting Build - Apr 30, 2021, 3:23:50 PM
+[2021.04.30-23.23.50:631][171]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2021.04.30-23.23.50:635][171]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2021.04.30-23.23.50:635][171]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2021.04.30-23.23.50:636][171]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2021.04.30-23.23.50:636][171]LogSwarmInterface: [TryOpenConnection] Local Process ID is 17160
+[2021.04.30-23.23.55:217][171]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2021.04.30-23.23.55:217][171]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2021.04.30-23.23.55:217][171]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2021.04.30-23.23.55:217][171]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2021.04.30-23.23.55:217][171]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2021.04.30-23.23.55:313][171]LogEditorBuildUtils: Build time 0:04
+[2021.04.30-23.23.55:404][172]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2021.04.30-23.24.01:367][382]Job is a success!
+[2021.04.30-23.24.01:544][383]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.035s
+[2021.04.30-23.24.01:544][383]LogVolumetricLightmapImport:      Indirection Texture 32x32x16 = 0.1Mb
+[2021.04.30-23.24.01:544][383]LogVolumetricLightmapImport:      BrickData (all levels) 2.3Mb (trimmed 0.0Mb due to 0.010000 MinBrickError)
+[2021.04.30-23.24.01:544][383]LogVolumetricLightmapImport:      Bricks at depth
+[2021.04.30-23.24.01:544][383]LogVolumetricLightmapImport:          0: 1.4% covering 100.0% of volume
+[2021.04.30-23.24.01:544][383]LogVolumetricLightmapImport:          1: 7.1% covering 8.2% of volume
+[2021.04.30-23.24.01:544][383]LogVolumetricLightmapImport:          2: 91.5% covering 1.6% of volume
+[2021.04.30-23.24.01:544][383]LogVolumetricLightmapImport:      Bricks in each level
+[2021.04.30-23.24.01:544][383]LogVolumetricLightmapImport:          KylesBuildings 			 295 bricks 	 100.0% (Persistent Level)
+[2021.04.30-23.24.02:022][383]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2021.04.30-23.24.02:022][383]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2021.04.30-23.24.02:022][383]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 512X512)
+[2021.04.30-23.24.02:023][383]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 512X512)
+[2021.04.30-23.24.02:023][383]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 256X256)
+[2021.04.30-23.24.02:023][383]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 256X256)
+[2021.04.30-23.24.02:023][383]LogTexture: Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 1024X1024)
+[2021.04.30-23.24.02:023][383]LogTexture: Display: Building textures: LQ_Lightmap_1_4 (DXT1, 1024X1024)
+[2021.04.30-23.24.02:023][383]LogTexture: Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 1024X1024)
+[2021.04.30-23.24.02:023][383]LogTexture: Display: Building textures: LQ_Lightmap_1_5 (DXT1, 1024X1024)
+[2021.04.30-23.24.02:023][383]LogTexture: Display: Building textures: HQ_Lightmap1_6 (AutoDXT, 64X64)
+[2021.04.30-23.24.02:023][383]LogTexture: Display: Building textures: LQ_Lightmap_1_6 (DXT1, 64X64)
+[2021.04.30-23.24.02:169][383]LogTexture: Display: Building textures: ShadowMapTexture2D_8 (G8, 32X32)
+[2021.04.30-23.24.02:169][383]LogTexture: Display: Building textures: ShadowMapTexture2D_7 (BGRA8, 128X128)
+[2021.04.30-23.24.02:169][383]LogTexture: Display: Building textures: ShadowMapTexture2D_6 (BGRA8, 256X256)
+[2021.04.30-23.24.02:169][383]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (BGRA8, 1024X1024)
+[2021.04.30-23.24.02:171][383]LogStaticLightingSystem: KylesBuildings_BuiltData storing lightmap data for 207 meshes in 10 LightmapResourceClusters (20.7 Meshes per cluster).
+[2021.04.30-23.24.02:173][383]Lightmass on DESKTOP-RBTKJ0E: 6.40 sec total, 142 ms importing, 96 ms setup, 1.48 sec photons, 4.65 sec processing, 0 ms extra exporting [664/664 mappings]. Threads: 1:09 min total, 32.2 sec processing.
+[2021.04.30-23.24.02:191][383]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2021.04.30-23.24.02:218][383]LogStaticLightingSystem: Illumination: 11.5 sec (372 ms encoding lightmaps, 120 ms encoding shadowmaps)
+[2021.04.30-23.24.02:218][383]LogStaticLightingSystem: Lightmap texture memory:  6.6 MB (6.1 MB streaming, 0.5 MB non-streaming), 12 textures
+[2021.04.30-23.24.02:218][383]LogStaticLightingSystem: Shadowmap texture memory: 5.8 MB (5.4 MB streaming, 0.3 MB non-streaming), 4 textures
+[2021.04.30-23.24.02:225][383]DumpUnbuiltLightIteractions
+[2021.04.30-23.24.02:225][383]Lights with unbuilt interactions: 0
+[2021.04.30-23.24.02:225][383]
+[2021.04.30-23.24.02:225][383]Primitives with unbuilt interactions: 0
+[2021.04.30-23.24.02:267][384]Cmd: MAP CHECK NOTIFYRESULTS
+[2021.04.30-23.24.02:267][384]MapCheck: New page: KylesBuildings - Apr 30, 2021, 3:24:02 PM
+[2021.04.30-23.24.02:269][384]MapCheck: Warning: FancyDoorway10_Blueprint Static mesh actor has NULL StaticMesh property 
+[2021.04.30-23.24.02:269][384]MapCheck: Warning: FancyDoorway10_Blueprint2 Static mesh actor has NULL StaticMesh property 
+[2021.04.30-23.24.02:269][384]MapCheck: Warning: FancyDoorway10_Blueprint3 Static mesh actor has NULL StaticMesh property 
+[2021.04.30-23.24.02:269][384]MapCheck: Warning: FancyDoorway10_Blueprint4 Static mesh actor has NULL StaticMesh property 
+[2021.04.30-23.24.02:269][384]MapCheck: Warning: FancyDoorway10_Blueprint5 Static mesh actor has NULL StaticMesh property 
+[2021.04.30-23.24.02:269][384]MapCheck: Warning: FancyDoorway10_Blueprint6 Static mesh actor has NULL StaticMesh property 
+[2021.04.30-23.24.02:269][384]MapCheck: Warning: FancyDoorway10_Blueprint7 Static mesh actor has NULL StaticMesh property 
+[2021.04.30-23.24.02:269][384]MapCheck: Warning: FancyDoorway10_Blueprint8 Static mesh actor has NULL StaticMesh property 
+[2021.04.30-23.24.02:269][384]MapCheck: Warning: FancyDoorway10_Blueprint9 Static mesh actor has NULL StaticMesh property 
+[2021.04.30-23.24.02:269][384]MapCheck: Warning: FancyDoorway10_Blueprint10 Static mesh actor has NULL StaticMesh property 
+[2021.04.30-23.24.02:269][384]MapCheck: Warning: FancyDoorway10_Blueprint11 Static mesh actor has NULL StaticMesh property 
+[2021.04.30-23.24.02:269][384]MapCheck: Warning: FancyDoorway10_Blueprint12 Static mesh actor has NULL StaticMesh property 
+[2021.04.30-23.24.02:269][384]MapCheck: Map check complete: 0 Error(s), 12 Warning(s), took 2.538ms to complete.
+[2021.04.30-23.24.17:532][194]LogSlate: Window 'Message Log' being destroyed
+[2021.04.30-23.24.17:536][194]LogSlate: Window 'Message Log' being destroyed
+[2021.04.30-23.24.36:713][325]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FPS/Blueprints/FancyDoorwayBPlueprint.FancyDoorwayBPlueprint
+[2021.04.30-23.24.36:861][325]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 125 classes and 0 folders.
+[2021.04.30-23.24.37:553][325]LogSlate: Took 0.004883 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.04.30-23.24.42:019][824]LogSlate: Window 'FancyDoorwayBPlueprint' being destroyed
+[2021.04.30-23.24.42:023][824]LogSlate: Window 'FancyDoorwayBPlueprint' being destroyed
+[2021.04.30-23.24.42:029][824]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2021.04.30-23.24.42:029][824]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.30-23.24.53:555][ 76]Cmd: TRANSACTION UNDO
+[2021.04.30-23.24.53:555][ 76]LogEditorTransaction: Undo Edit Static Mesh
+[2021.04.30-23.25.10:056][928]LogUObjectHash: Compacting FUObjectHashTables data took   3.30ms
+[2021.04.30-23.25.19:667][998]MapCheck: New page: Map Check
+[2021.04.30-23.25.19:675][998]Cmd: MAP REBUILD ALLVISIBLE
+[2021.04.30-23.25.19:675][998]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2021.04.30-23.25.19:796][998]LogWorld: UWorld::CleanupWorld for KylesBuildings, bSessionEnded=true, bCleanupResources=false
+[2021.04.30-23.25.19:842][998]LightingResults: New page: Lighting Build - Apr 30, 2021, 3:25:19 PM
+[2021.04.30-23.25.19:849][998]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2021.04.30-23.25.19:854][998]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2021.04.30-23.25.19:854][998]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2021.04.30-23.25.19:855][998]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2021.04.30-23.25.19:855][998]LogSwarmInterface: [TryOpenConnection] Local Process ID is 17160
+[2021.04.30-23.25.24:440][998]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2021.04.30-23.25.24:440][998]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2021.04.30-23.25.24:440][998]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2021.04.30-23.25.24:440][998]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2021.04.30-23.25.24:440][998]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2021.04.30-23.25.24:531][998]LogEditorBuildUtils: Build time 0:04
+[2021.04.30-23.25.24:621][999]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2021.04.30-23.25.45:487][656]LightingResults: Warning: FancyDoorway Object has overlapping UVs.
+[2021.04.30-23.25.45:487][656]LightingResults: FancyDoorway Lightmap UV are overlapping by 82.8%. Please adjust content - Enable Error Coloring to visualize.
+[2021.04.30-23.25.47:493][829]LightingResults: Warning: FancyDoorway Object has overlapping UVs.
+[2021.04.30-23.25.47:493][829]LightingResults: FancyDoorway Lightmap UV are overlapping by 82.8%. Please adjust content - Enable Error Coloring to visualize.
+[2021.04.30-23.25.50:645][997]LightingResults: Warning: FancyDoorway Object has overlapping UVs.
+[2021.04.30-23.25.50:645][997]LightingResults: FancyDoorway Lightmap UV are overlapping by 82.8%. Please adjust content - Enable Error Coloring to visualize.
+[2021.04.30-23.25.54:245][164]LightingResults: Warning: FancyDoorway Object has overlapping UVs.
+[2021.04.30-23.25.54:245][164]LightingResults: FancyDoorway Lightmap UV are overlapping by 82.8%. Please adjust content - Enable Error Coloring to visualize.
+[2021.04.30-23.25.56:802][227]LightingResults: Warning: FancyDoorway Object has overlapping UVs.
+[2021.04.30-23.25.56:802][227]LightingResults: FancyDoorway Lightmap UV are overlapping by 82.8%. Please adjust content - Enable Error Coloring to visualize.
+[2021.04.30-23.25.59:042][327]LightingResults: Warning: FancyDoorway Object has overlapping UVs.
+[2021.04.30-23.25.59:042][327]LightingResults: FancyDoorway Lightmap UV are overlapping by 82.8%. Please adjust content - Enable Error Coloring to visualize.
+[2021.04.30-23.26.02:703][525]LightingResults: Warning: FancyDoorway Object has overlapping UVs.
+[2021.04.30-23.26.02:703][525]LightingResults: FancyDoorway Lightmap UV are overlapping by 82.8%. Please adjust content - Enable Error Coloring to visualize.
+[2021.04.30-23.26.04:260][593]LogStaticLightingSystem: Warning: Failed to build lighting!!! Lighting build canceled.
+[2021.04.30-23.26.04:466][593]Job has failed! Job is closed while Tasks are still PENDING
+[2021.04.30-23.26.04:466][593]DumpUnbuiltLightIteractions
+[2021.04.30-23.26.04:466][593]Lights with unbuilt interactions: 5
+[2021.04.30-23.26.04:466][593]    Light LightSource
+[2021.04.30-23.26.04:466][593]    Light PointLight_1
+[2021.04.30-23.26.04:466][593]    Light PointLight2
+[2021.04.30-23.26.04:466][593]    Light PointLight3
+[2021.04.30-23.26.04:466][593]    Light PointLight4
+[2021.04.30-23.26.04:466][593]
+[2021.04.30-23.26.04:466][593]Primitives with unbuilt interactions: 19
+[2021.04.30-23.26.04:466][593]    Primitive StaticMeshComponent /Game/FPS/Kyle/KylesBuildings.KylesBuildings:PersistentLevel.FancyDoorway10_Blueprint9.StaticMeshComponent0
+[2021.04.30-23.26.04:466][593]    Primitive StaticMeshComponent /Game/FPS/Kyle/KylesBuildings.KylesBuildings:PersistentLevel.FancyDoorway10_Blueprint8.StaticMeshComponent0
+[2021.04.30-23.26.04:466][593]    Primitive StaticMeshComponent /Game/FPS/Kyle/KylesBuildings.KylesBuildings:PersistentLevel.FancyDoorway10_Blueprint7.StaticMeshComponent0
+[2021.04.30-23.26.04:466][593]    Primitive StaticMeshComponent /Game/FPS/Kyle/KylesBuildings.KylesBuildings:PersistentLevel.FancyDoorway10_Blueprint6.StaticMeshComponent0
+[2021.04.30-23.26.04:466][593]    Primitive StaticMeshComponent /Game/FPS/Kyle/KylesBuildings.KylesBuildings:PersistentLevel.FancyDoorway10_Blueprint5.StaticMeshComponent0
+[2021.04.30-23.26.04:466][593]    Primitive StaticMeshComponent /Game/FPS/Kyle/KylesBuildings.KylesBuildings:PersistentLevel.FancyDoorway10_Blueprint4.StaticMeshComponent0
+[2021.04.30-23.26.04:466][593]    Primitive StaticMeshComponent /Game/FPS/Kyle/KylesBuildings.KylesBuildings:PersistentLevel.FancyDoorway10_Blueprint3.StaticMeshComponent0
+[2021.04.30-23.26.04:466][593]    Primitive StaticMeshComponent /Game/FPS/Kyle/KylesBuildings.KylesBuildings:PersistentLevel.FancyDoorway10_Blueprint2.StaticMeshComponent0
+[2021.04.30-23.26.04:466][593]    Primitive StaticMeshComponent /Game/FPS/Kyle/KylesBuildings.KylesBuildings:PersistentLevel.FancyDoorway10_Blueprint12.StaticMeshComponent0
+[2021.04.30-23.26.04:466][593]    Primitive StaticMeshComponent /Game/FPS/Kyle/KylesBuildings.KylesBuildings:PersistentLevel.FancyDoorway10_Blueprint11.StaticMeshComponent0
+[2021.04.30-23.26.04:466][593]    Primitive StaticMeshComponent /Game/FPS/Kyle/KylesBuildings.KylesBuildings:PersistentLevel.FancyDoorway10_Blueprint10.StaticMeshComponent0
+[2021.04.30-23.26.04:466][593]    Primitive StaticMeshComponent /Game/FPS/Kyle/KylesBuildings.KylesBuildings:PersistentLevel.FancyDoorway10_Blueprint.StaticMeshComponent0
+[2021.04.30-23.26.04:466][593]    Primitive ModelComponent /Game/FPS/Kyle/KylesBuildings.KylesBuildings:PersistentLevel.ModelComponent_19
+[2021.04.30-23.26.04:467][593]    Primitive ModelComponent /Game/FPS/Kyle/KylesBuildings.KylesBuildings:PersistentLevel.ModelComponent_20
+[2021.04.30-23.26.04:467][593]    Primitive ModelComponent /Game/FPS/Kyle/KylesBuildings.KylesBuildings:PersistentLevel.ModelComponent_18
+[2021.04.30-23.26.04:467][593]    Primitive ModelComponent /Game/FPS/Kyle/KylesBuildings.KylesBuildings:PersistentLevel.ModelComponent_16
+[2021.04.30-23.26.04:467][593]    Primitive ModelComponent /Game/FPS/Kyle/KylesBuildings.KylesBuildings:PersistentLevel.ModelComponent_17
+[2021.04.30-23.26.04:467][593]    Primitive ModelComponent /Game/FPS/Kyle/KylesBuildings.KylesBuildings:PersistentLevel.ModelComponent_15
+[2021.04.30-23.26.04:467][593]    Primitive ModelComponent /Game/FPS/Kyle/KylesBuildings.KylesBuildings:PersistentLevel.ModelComponent_14
+[2021.04.30-23.26.04:598][594]Cmd: MAP CHECK NOTIFYRESULTS
+[2021.04.30-23.26.04:598][594]MapCheck: New page: KylesBuildings - Apr 30, 2021, 3:26:04 PM
+[2021.04.30-23.26.04:598][594]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
+[2021.04.30-23.26.04:600][594]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 1.459ms to complete.
+[2021.04.30-23.26.14:710][215]LogSlate: Window 'Message Log' being destroyed
+[2021.04.30-23.26.14:712][215]LogSlate: Window 'Message Log' being destroyed
+[2021.04.30-23.26.41:506][700]MapCheck: New page: Map Check
+[2021.04.30-23.26.41:519][700]Cmd: MAP REBUILD ALLVISIBLE
+[2021.04.30-23.26.41:519][700]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2021.04.30-23.26.41:646][700]LogWorld: UWorld::CleanupWorld for KylesBuildings, bSessionEnded=true, bCleanupResources=false
+[2021.04.30-23.26.41:692][700]LightingResults: New page: Lighting Build - Apr 30, 2021, 3:26:41 PM
+[2021.04.30-23.26.41:698][700]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2021.04.30-23.26.41:702][700]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2021.04.30-23.26.41:702][700]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2021.04.30-23.26.41:703][700]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2021.04.30-23.26.41:703][700]LogSwarmInterface: [TryOpenConnection] Local Process ID is 17160
+[2021.04.30-23.26.46:260][700]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2021.04.30-23.26.46:260][700]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2021.04.30-23.26.46:260][700]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2021.04.30-23.26.46:260][700]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2021.04.30-23.26.46:260][700]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2021.04.30-23.26.46:352][700]LogEditorBuildUtils: Build time 0:04
+[2021.04.30-23.26.46:438][701]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2021.04.30-23.27.06:634][454]LightingResults: Warning: FancyDoorway Object has overlapping UVs.
+[2021.04.30-23.27.06:634][454]LightingResults: FancyDoorway Lightmap UV are overlapping by 82.8%. Please adjust content - Enable Error Coloring to visualize.
+[2021.04.30-23.27.07:853][500]LightingResults: Warning: FancyDoorway Object has overlapping UVs.
+[2021.04.30-23.27.07:853][500]LightingResults: FancyDoorway Lightmap UV are overlapping by 82.8%. Please adjust content - Enable Error Coloring to visualize.
+[2021.04.30-23.27.11:435][639]LightingResults: Warning: FancyDoorway Object has overlapping UVs.
+[2021.04.30-23.27.11:435][639]LightingResults: FancyDoorway Lightmap UV are overlapping by 82.8%. Please adjust content - Enable Error Coloring to visualize.
+[2021.04.30-23.27.14:439][756]LightingResults: Warning: FancyDoorway Object has overlapping UVs.
+[2021.04.30-23.27.14:439][756]LightingResults: FancyDoorway Lightmap UV are overlapping by 82.8%. Please adjust content - Enable Error Coloring to visualize.
+[2021.04.30-23.27.17:656][880]LightingResults: Warning: FancyDoorway Object has overlapping UVs.
+[2021.04.30-23.27.17:656][880]LightingResults: FancyDoorway Lightmap UV are overlapping by 82.8%. Please adjust content - Enable Error Coloring to visualize.
+[2021.04.30-23.27.19:849][965]LightingResults: Warning: FancyDoorway Object has overlapping UVs.
+[2021.04.30-23.27.19:849][965]LightingResults: FancyDoorway Lightmap UV are overlapping by 82.8%. Please adjust content - Enable Error Coloring to visualize.
+[2021.04.30-23.27.23:183][ 95]LightingResults: Warning: FancyDoorway Object has overlapping UVs.
+[2021.04.30-23.27.23:183][ 95]LightingResults: FancyDoorway Lightmap UV are overlapping by 82.8%. Please adjust content - Enable Error Coloring to visualize.
+[2021.04.30-23.27.25:814][209]LightingResults: Warning: FancyDoorway Object has overlapping UVs.
+[2021.04.30-23.27.25:836][210]LightingResults: FancyDoorway Lightmap UV are overlapping by 82.8%. Please adjust content - Enable Error Coloring to visualize.
+[2021.04.30-23.27.28:149][297]LightingResults: Warning: FancyDoorway Object has overlapping UVs.
+[2021.04.30-23.27.28:149][297]LightingResults: FancyDoorway Lightmap UV are overlapping by 82.8%. Please adjust content - Enable Error Coloring to visualize.
+[2021.04.30-23.27.31:400][450]LightingResults: Warning: FancyDoorway Object has overlapping UVs.
+[2021.04.30-23.27.31:400][450]LightingResults: FancyDoorway Lightmap UV are overlapping by 82.8%. Please adjust content - Enable Error Coloring to visualize.
+[2021.04.30-23.27.33:904][659]LightingResults: Warning: FancyDoorway Object has overlapping UVs.
+[2021.04.30-23.27.33:904][659]LightingResults: FancyDoorway Lightmap UV are overlapping by 82.8%. Please adjust content - Enable Error Coloring to visualize.
+[2021.04.30-23.27.36:481][886]LightingResults: Warning: FancyDoorway Object has overlapping UVs.
+[2021.04.30-23.27.36:481][886]LightingResults: FancyDoorway Lightmap UV are overlapping by 82.8%. Please adjust content - Enable Error Coloring to visualize.
+[2021.04.30-23.27.38:794][ 89]Job is a success!
+[2021.04.30-23.27.38:959][ 91]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.036s
+[2021.04.30-23.27.38:960][ 91]LogVolumetricLightmapImport:      Indirection Texture 32x32x16 = 0.1Mb
+[2021.04.30-23.27.38:960][ 91]LogVolumetricLightmapImport:      BrickData (all levels) 2.3Mb (trimmed 0.0Mb due to 0.010000 MinBrickError)
+[2021.04.30-23.27.38:960][ 91]LogVolumetricLightmapImport:      Bricks at depth
+[2021.04.30-23.27.38:960][ 91]LogVolumetricLightmapImport:          0: 1.4% covering 100.0% of volume
+[2021.04.30-23.27.38:960][ 91]LogVolumetricLightmapImport:          1: 7.1% covering 8.2% of volume
+[2021.04.30-23.27.38:960][ 91]LogVolumetricLightmapImport:          2: 91.5% covering 1.6% of volume
+[2021.04.30-23.27.38:960][ 91]LogVolumetricLightmapImport:      Bricks in each level
+[2021.04.30-23.27.38:960][ 91]LogVolumetricLightmapImport:          KylesBuildings 			 295 bricks 	 100.0% (Persistent Level)
+[2021.04.30-23.27.40:054][ 91]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2021.04.30-23.27.40:054][ 91]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2021.04.30-23.27.40:054][ 91]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
+[2021.04.30-23.27.40:054][ 91]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
+[2021.04.30-23.27.40:054][ 91]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 1024X1024)
+[2021.04.30-23.27.40:054][ 91]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 1024X1024)
+[2021.04.30-23.27.40:055][ 91]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 1024X1024)
+[2021.04.30-23.27.40:055][ 91]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 1024X1024)
+[2021.04.30-23.27.40:055][ 91]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 1024X1024)
+[2021.04.30-23.27.40:055][ 91]LogTexture: Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 1024X1024)
+[2021.04.30-23.27.40:055][ 91]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 1024X1024)
+[2021.04.30-23.27.40:055][ 91]LogTexture: Display: Building textures: LQ_Lightmap_0_6 (DXT1, 1024X1024)
+[2021.04.30-23.27.40:055][ 91]LogTexture: Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 1024X1024)
+[2021.04.30-23.27.40:055][ 91]LogTexture: Display: Building textures: LQ_Lightmap_0_7 (DXT1, 1024X1024)
+[2021.04.30-23.27.40:055][ 91]LogTexture: Display: Building textures: HQ_Lightmap0_8 (AutoDXT, 512X512)
+[2021.04.30-23.27.40:055][ 91]LogTexture: Display: Building textures: LQ_Lightmap_0_8 (DXT1, 512X512)
+[2021.04.30-23.27.40:055][ 91]LogTexture: Display: Building textures: HQ_Lightmap0_9 (AutoDXT, 256X256)
+[2021.04.30-23.27.40:055][ 91]LogTexture: Display: Building textures: LQ_Lightmap_0_9 (DXT1, 256X256)
+[2021.04.30-23.27.40:055][ 91]LogTexture: Display: Building textures: HQ_Lightmap0_10 (AutoDXT, 1024X1024)
+[2021.04.30-23.27.40:055][ 91]LogTexture: Display: Building textures: LQ_Lightmap_0_10 (DXT1, 1024X1024)
+[2021.04.30-23.27.40:055][ 91]LogTexture: Display: Building textures: HQ_Lightmap0_11 (AutoDXT, 1024X1024)
+[2021.04.30-23.27.40:055][ 91]LogTexture: Display: Building textures: LQ_Lightmap_0_11 (DXT1, 1024X1024)
+[2021.04.30-23.27.40:055][ 91]LogTexture: Display: Building textures: HQ_Lightmap0_12 (AutoDXT, 64X64)
+[2021.04.30-23.27.40:055][ 91]LogTexture: Display: Building textures: LQ_Lightmap_0_12 (DXT1, 64X64)
+[2021.04.30-23.27.40:222][ 91]LogTexture: Display: Building textures: ShadowMapTexture2D_13 (G8, 32X32)
+[2021.04.30-23.27.40:222][ 91]LogTexture: Display: Building textures: ShadowMapTexture2D_11 (BGRA8, 128X128)
+[2021.04.30-23.27.40:222][ 91]LogTexture: Display: Building textures: ShadowMapTexture2D_10 (BGRA8, 256X256)
+[2021.04.30-23.27.40:222][ 91]LogTexture: Display: Building textures: ShadowMapTexture2D_12 (BGRA8, 1024X512)
+[2021.04.30-23.27.40:222][ 91]LogTexture: Display: Building textures: ShadowMapTexture2D_9 (BGRA8, 1024X1024)
+[2021.04.30-23.27.40:222][ 91]Lightmass on DESKTOP-RBTKJ0E: 53.3 sec total, 145 ms importing, 135 ms setup, 6.17 sec photons, 46.8 sec processing, 0 ms extra exporting [676/676 mappings]. Threads: 11:43 min total, 6:10 min processing.
+[2021.04.30-23.27.40:228][ 91]LogStaticLightingSystem: KylesBuildings_BuiltData storing lightmap data for 219 meshes in 19 LightmapResourceClusters (11.5 Meshes per cluster).
+[2021.04.30-23.27.40:257][ 91]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2021.04.30-23.27.40:289][ 91]LogStaticLightingSystem: Illumination: 58.5 sec (857 ms encoding lightmaps, 121 ms encoding shadowmaps)
+[2021.04.30-23.27.40:289][ 91]LogStaticLightingSystem: Lightmap texture memory:  18.6 MB (18.1 MB streaming, 0.5 MB non-streaming), 24 textures
+[2021.04.30-23.27.40:289][ 91]LogStaticLightingSystem: Shadowmap texture memory: 8.4 MB (8.1 MB streaming, 0.3 MB non-streaming), 5 textures
+[2021.04.30-23.27.40:293][ 91]DumpUnbuiltLightIteractions
+[2021.04.30-23.27.40:293][ 91]Lights with unbuilt interactions: 0
+[2021.04.30-23.27.40:293][ 91]
+[2021.04.30-23.27.40:293][ 91]Primitives with unbuilt interactions: 0
+[2021.04.30-23.27.40:339][ 92]Cmd: MAP CHECK NOTIFYRESULTS
+[2021.04.30-23.27.40:339][ 92]MapCheck: New page: KylesBuildings - Apr 30, 2021, 3:27:40 PM
+[2021.04.30-23.27.40:341][ 92]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.516ms to complete.
+[2021.04.30-23.27.59:733][106]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.04.30-23.28.32:494][773]LogEditorViewport: Clicking on Actor (LMB): FancyDoorwayBPlueprint_C (FancyDoorway10_Blueprint10)
+[2021.04.30-23.29.36:686][107]MapCheck: New page: Map Check
+[2021.04.30-23.29.36:694][107]Cmd: MAP REBUILD ALLVISIBLE
+[2021.04.30-23.29.36:694][107]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2021.04.30-23.29.36:815][107]LogWorld: UWorld::CleanupWorld for KylesBuildings, bSessionEnded=true, bCleanupResources=false
+[2021.04.30-23.29.36:868][107]LightingResults: New page: Lighting Build - Apr 30, 2021, 3:29:36 PM
+[2021.04.30-23.29.36:875][107]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2021.04.30-23.29.36:879][107]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2021.04.30-23.29.36:879][107]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2021.04.30-23.29.36:880][107]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2021.04.30-23.29.36:880][107]LogSwarmInterface: [TryOpenConnection] Local Process ID is 17160
+[2021.04.30-23.29.41:423][107]LogStaticLightingSystem: Warning: Failed to build lighting!!! Lighting build canceled.
+[2021.04.30-23.29.42:436][107]LogEditorBuildUtils: Build time 0:05
+[2021.04.30-23.29.46:250][503]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2021.04.30-23.29.49:763][840]MapCheck: New page: Map Check
+[2021.04.30-23.29.49:776][840]Cmd: MAP REBUILD ALLVISIBLE
+[2021.04.30-23.29.49:776][840]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2021.04.30-23.29.49:897][840]LogWorld: UWorld::CleanupWorld for KylesBuildings, bSessionEnded=true, bCleanupResources=false
+[2021.04.30-23.29.49:944][840]LightingResults: New page: Lighting Build - Apr 30, 2021, 3:29:49 PM
+[2021.04.30-23.29.49:951][840]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2021.04.30-23.29.49:956][840]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2021.04.30-23.29.49:956][840]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2021.04.30-23.29.49:956][840]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2021.04.30-23.29.49:956][840]LogSwarmInterface: [TryOpenConnection] Local Process ID is 17160
+[2021.04.30-23.29.54:532][840]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2021.04.30-23.29.54:532][840]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2021.04.30-23.29.54:532][840]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2021.04.30-23.29.54:532][840]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2021.04.30-23.29.54:532][840]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2021.04.30-23.29.54:620][840]LogEditorBuildUtils: Build time 0:04
+[2021.04.30-23.29.54:687][841]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2021.04.30-23.30.01:667][391]Job is a success!
+[2021.04.30-23.30.01:821][393]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.036s
+[2021.04.30-23.30.01:821][393]LogVolumetricLightmapImport:      Indirection Texture 32x32x16 = 0.1Mb
+[2021.04.30-23.30.01:821][393]LogVolumetricLightmapImport:      BrickData (all levels) 2.3Mb (trimmed 0.0Mb due to 0.010000 MinBrickError)
+[2021.04.30-23.30.01:821][393]LogVolumetricLightmapImport:      Bricks at depth
+[2021.04.30-23.30.01:821][393]LogVolumetricLightmapImport:          0: 1.4% covering 100.0% of volume
+[2021.04.30-23.30.01:821][393]LogVolumetricLightmapImport:          1: 7.1% covering 8.2% of volume
+[2021.04.30-23.30.01:821][393]LogVolumetricLightmapImport:          2: 91.5% covering 1.6% of volume
+[2021.04.30-23.30.01:821][393]LogVolumetricLightmapImport:      Bricks in each level
+[2021.04.30-23.30.01:821][393]LogVolumetricLightmapImport:          KylesBuildings 			 295 bricks 	 100.0% (Persistent Level)
+[2021.04.30-23.30.02:309][393]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2021.04.30-23.30.02:309][393]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2021.04.30-23.30.02:309][393]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 512X512)
+[2021.04.30-23.30.02:309][393]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 512X512)
+[2021.04.30-23.30.02:309][393]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 256X256)
+[2021.04.30-23.30.02:309][393]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 256X256)
+[2021.04.30-23.30.02:309][393]LogTexture: Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 1024X1024)
+[2021.04.30-23.30.02:309][393]LogTexture: Display: Building textures: LQ_Lightmap_1_4 (DXT1, 1024X1024)
+[2021.04.30-23.30.02:309][393]LogTexture: Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 1024X1024)
+[2021.04.30-23.30.02:309][393]LogTexture: Display: Building textures: LQ_Lightmap_1_5 (DXT1, 1024X1024)
+[2021.04.30-23.30.02:309][393]LogTexture: Display: Building textures: HQ_Lightmap1_6 (AutoDXT, 64X64)
+[2021.04.30-23.30.02:309][393]LogTexture: Display: Building textures: LQ_Lightmap_1_6 (DXT1, 64X64)
+[2021.04.30-23.30.02:463][393]LogTexture: Display: Building textures: ShadowMapTexture2D_17 (G8, 32X32)
+[2021.04.30-23.30.02:463][393]LogTexture: Display: Building textures: ShadowMapTexture2D_16 (BGRA8, 128X128)
+[2021.04.30-23.30.02:463][393]LogTexture: Display: Building textures: ShadowMapTexture2D_15 (BGRA8, 256X256)
+[2021.04.30-23.30.02:463][393]LogTexture: Display: Building textures: ShadowMapTexture2D_14 (BGRA8, 1024X1024)
+[2021.04.30-23.30.02:465][393]LogStaticLightingSystem: KylesBuildings_BuiltData storing lightmap data for 207 meshes in 10 LightmapResourceClusters (20.7 Meshes per cluster).
+[2021.04.30-23.30.02:488][393]Lightmass on DESKTOP-RBTKJ0E: 7.41 sec total, 143 ms importing, 149 ms setup, 1.61 sec photons, 5.46 sec processing, 0 ms extra exporting [664/664 mappings]. Threads: 1:21 min total, 33.9 sec processing.
+[2021.04.30-23.30.02:491][393]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2021.04.30-23.30.02:518][393]LogStaticLightingSystem: Illumination: 12.5 sec (361 ms encoding lightmaps, 129 ms encoding shadowmaps)
+[2021.04.30-23.30.02:518][393]LogStaticLightingSystem: Lightmap texture memory:  6.6 MB (6.1 MB streaming, 0.5 MB non-streaming), 12 textures
+[2021.04.30-23.30.02:518][393]LogStaticLightingSystem: Shadowmap texture memory: 5.8 MB (5.4 MB streaming, 0.3 MB non-streaming), 4 textures
+[2021.04.30-23.30.02:520][393]DumpUnbuiltLightIteractions
+[2021.04.30-23.30.02:520][393]Lights with unbuilt interactions: 0
+[2021.04.30-23.30.02:520][393]
+[2021.04.30-23.30.02:520][393]Primitives with unbuilt interactions: 0
+[2021.04.30-23.30.02:557][394]Cmd: MAP CHECK NOTIFYRESULTS
+[2021.04.30-23.30.02:557][394]MapCheck: New page: KylesBuildings - Apr 30, 2021, 3:30:02 PM
+[2021.04.30-23.30.02:559][394]MapCheck: Warning: FancyDoorway10_Blueprint Static mesh actor has NULL StaticMesh property 
+[2021.04.30-23.30.02:559][394]MapCheck: Warning: FancyDoorway10_Blueprint10 Static mesh actor has NULL StaticMesh property 
+[2021.04.30-23.30.02:559][394]MapCheck: Warning: FancyDoorway10_Blueprint11 Static mesh actor has NULL StaticMesh property 
+[2021.04.30-23.30.02:559][394]MapCheck: Warning: FancyDoorway10_Blueprint12 Static mesh actor has NULL StaticMesh property 
+[2021.04.30-23.30.02:559][394]MapCheck: Warning: FancyDoorway10_Blueprint2 Static mesh actor has NULL StaticMesh property 
+[2021.04.30-23.30.02:559][394]MapCheck: Warning: FancyDoorway10_Blueprint3 Static mesh actor has NULL StaticMesh property 
+[2021.04.30-23.30.02:559][394]MapCheck: Warning: FancyDoorway10_Blueprint4 Static mesh actor has NULL StaticMesh property 
+[2021.04.30-23.30.02:559][394]MapCheck: Warning: FancyDoorway10_Blueprint5 Static mesh actor has NULL StaticMesh property 
+[2021.04.30-23.30.02:559][394]MapCheck: Warning: FancyDoorway10_Blueprint6 Static mesh actor has NULL StaticMesh property 
+[2021.04.30-23.30.02:559][394]MapCheck: Warning: FancyDoorway10_Blueprint7 Static mesh actor has NULL StaticMesh property 
+[2021.04.30-23.30.02:559][394]MapCheck: Warning: FancyDoorway10_Blueprint8 Static mesh actor has NULL StaticMesh property 
+[2021.04.30-23.30.02:559][394]MapCheck: Warning: FancyDoorway10_Blueprint9 Static mesh actor has NULL StaticMesh property 
+[2021.04.30-23.30.02:559][394]MapCheck: Map check complete: 0 Error(s), 12 Warning(s), took 2.732ms to complete.
+[2021.04.30-23.30.13:654][473]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/Shared/Editor/MapErrors/index.html?utm_source=editor&utm_medium=docs&utm_campaign=msg_log
+[2021.04.30-23.31.46:187][186]LogEditorViewport: Clicking Background
+[2021.04.30-23.31.46:928][272]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube187)
+[2021.04.30-23.31.47:344][316]LogEditorViewport: Clicking on Actor (LMB): FancyDoorwayBPlueprint_C (FancyDoorway10_Blueprint10)
+[2021.04.30-23.32.08:821][819]LogSlate: Window 'Message Log' being destroyed
+[2021.04.30-23.32.08:824][819]LogSlate: Window 'Message Log' being destroyed
+[2021.04.30-23.32.40:725][ 71]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2021.04.30-23.32.40:840][ 71]LogSavePackage: Moving 'E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Saved/KylesBuildings_Auto11B669059483A701CBC2290AE68451A73.tmp' to 'E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Saved/Autosaves/Game/FPS/Kyle/KylesBuildings_Auto1.umap'
+[2021.04.30-23.32.40:841][ 71]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FPS/Kyle/KylesBuildings' took 0.132
+[2021.04.30-23.32.40:841][ 71]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.132
+[2021.04.30-23.32.40:842][ 71]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FPS/Blueprints/FancyDoorwayBPlueprint] ([1] browsable assets)...
+[2021.04.30-23.32.40:851][ 71]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FPS/Blueprints/FancyDoorwayBPlueprint.FancyDoorwayBPlueprint]
+[2021.04.30-23.32.40:851][ 71]OBJ SavePackage: Finished generating thumbnails for package [/Game/FPS/Blueprints/FancyDoorwayBPlueprint]
+[2021.04.30-23.32.40:859][ 71]LogSavePackage: Moving 'E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Saved/FancyDoorwayBPlueprint_Auto147A23E25427C72F2FD34098E6BB407F0.tmp' to 'E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Saved/Autosaves/Game/FPS/Blueprints/FancyDoorwayBPlueprint_Auto1.uasset'
+[2021.04.30-23.32.40:859][ 71]LogFileHelpers: Auto-saving content packages took 0.018
+[2021.04.30-23.33.06:899][297]LogActorFactory: Actor Factory created FancyDoorway
+[2021.04.30-23.33.07:562][355]LogActorFactory: Actor Factory created FancyDoorway
+[2021.04.30-23.33.25:168][888]Cmd: DELETE
+[2021.04.30-23.33.25:168][888]Cmd: ACTOR DELETE
+[2021.04.30-23.33.25:177][888]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.04.30-23.33.25:193][888]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2021.04.30-23.33.25:201][888]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2021.04.30-23.33.25:976][980]LogEditorViewport: Clicking on Actor (LMB): FancyDoorwayBPlueprint_C (FancyDoorway10_Blueprint10)
+[2021.04.30-23.33.37:735][318]LogEditorViewport: Clicking on Actor (LMB): FancyDoorwayBPlueprint_C (FancyDoorway10_Blueprint11)
+[2021.04.30-23.33.38:311][380]LogEditorViewport: Clicking on Actor (LMB): FancyDoorwayBPlueprint_C (FancyDoorway10_Blueprint10)
+[2021.04.30-23.34.04:452][368]Cmd: TRANSACTION UNDO
+[2021.04.30-23.34.04:452][368]LogEditorTransaction: Undo Move Actors
+[2021.04.30-23.34.15:997][640]LogStaticMesh: Building static mesh SimpleDoorway...
+[2021.04.30-23.34.16:028][640]LogStaticMesh: Built static mesh [0.03s] /Game/Meshes/SimpleDoorway.SimpleDoorway
+[2021.04.30-23.34.25:743][715]Cmd: TRANSACTION UNDO
+[2021.04.30-23.34.25:743][715]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2021.04.30-23.34.26:676][789]Cmd: TRANSACTION UNDO
+[2021.04.30-23.34.26:676][789]LogEditorTransaction: Undo Edit Static Mesh
+[2021.04.30-23.34.37:480][955]Cmd: TRANSACTION UNDO
+[2021.04.30-23.34.37:480][955]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2021.04.30-23.34.37:999][979]Cmd: TRANSACTION UNDO
+[2021.04.30-23.34.37:999][979]LogEditorTransaction: Undo Edit Static Mesh
+[2021.04.30-23.34.39:168][116]LogEditorViewport: Clicking on Actor (LMB): FancyDoorwayBPlueprint_C (FancyDoorway10_Blueprint10)
+[2021.04.30-23.35.35:717][346]Cmd: TRANSACTION UNDO
+[2021.04.30-23.35.35:717][346]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2021.04.30-23.35.52:321][257]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2021.04.30-23.35.59:358][ 38]Cmd: TRANSACTION UNDO
+[2021.04.30-23.35.59:358][ 38]LogEditorTransaction: Undo Apply Changes to Blueprint
+[2021.04.30-23.36.01:279][196]Cmd: TRANSACTION UNDO
+[2021.04.30-23.36.01:279][196]LogEditorTransaction: Undo Move Components
+[2021.04.30-23.36.01:717][241]Cmd: TRANSACTION UNDO
+[2021.04.30-23.36.01:717][241]LogEditorTransaction: Undo Move Components
+[2021.04.30-23.36.02:026][276]Cmd: TRANSACTION UNDO
+[2021.04.30-23.36.02:026][276]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2021.04.30-23.36.02:279][297]Cmd: TRANSACTION UNDO
+[2021.04.30-23.36.02:279][297]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2021.04.30-23.36.02:496][320]Cmd: TRANSACTION UNDO
+[2021.04.30-23.36.02:496][320]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2021.04.30-23.36.02:703][340]Cmd: TRANSACTION UNDO
+[2021.04.30-23.36.02:703][340]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2021.04.30-23.36.02:901][359]Cmd: TRANSACTION UNDO
+[2021.04.30-23.36.02:901][359]LogEditorTransaction: Undo Edit Static Mesh
+[2021.04.30-23.36.03:095][378]Cmd: TRANSACTION UNDO
+[2021.04.30-23.36.03:095][378]LogEditorTransaction: Undo Edit Phys Material Override
+[2021.04.30-23.36.09:918][145]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2021.04.30-23.36.21:026][379]Cmd: TRANSACTION UNDO
+[2021.04.30-23.36.21:026][379]LogEditorTransaction: Undo Apply Changes to Blueprint
+[2021.04.30-23.36.22:817][554]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube187)
+[2021.04.30-23.36.24:620][764]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube206)
+[2021.04.30-23.36.25:446][858]LogEditorViewport: Clicking on Actor (LMB): FancyDoorwayBPlueprint_C (FancyDoorway10_Blueprint11)
+[2021.04.30-23.36.26:764][ 11]LogEditorViewport: Clicking on Actor (LMB): FancyDoorwayBPlueprint_C (FancyDoorway10_Blueprint10)
+[2021.04.30-23.36.29:652][342]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2021.04.30-23.36.31:072][479]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube187)
+[2021.04.30-23.36.33:368][665]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2021.04.30-23.36.38:110][969]MapCheck: New page: Map Check
+[2021.04.30-23.36.38:120][969]Cmd: MAP REBUILD ALLVISIBLE
+[2021.04.30-23.36.38:120][969]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2021.04.30-23.36.38:243][969]LogWorld: UWorld::CleanupWorld for KylesBuildings, bSessionEnded=true, bCleanupResources=false
+[2021.04.30-23.36.38:288][969]LightingResults: New page: Lighting Build - Apr 30, 2021, 3:36:38 PM
+[2021.04.30-23.36.38:294][969]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2021.04.30-23.36.38:298][969]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2021.04.30-23.36.38:298][969]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2021.04.30-23.36.38:299][969]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2021.04.30-23.36.38:299][969]LogSwarmInterface: [TryOpenConnection] Local Process ID is 17160
+[2021.04.30-23.36.42:863][969]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2021.04.30-23.36.42:863][969]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2021.04.30-23.36.42:863][969]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2021.04.30-23.36.42:863][969]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2021.04.30-23.36.42:863][969]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2021.04.30-23.36.42:954][969]LogEditorBuildUtils: Build time 0:04
+[2021.04.30-23.36.43:054][970]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2021.04.30-23.36.48:942][161]Job is a success!
+[2021.04.30-23.36.49:128][163]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.036s
+[2021.04.30-23.36.49:128][163]LogVolumetricLightmapImport:      Indirection Texture 32x32x16 = 0.1Mb
+[2021.04.30-23.36.49:128][163]LogVolumetricLightmapImport:      BrickData (all levels) 2.3Mb (trimmed 0.0Mb due to 0.010000 MinBrickError)
+[2021.04.30-23.36.49:128][163]LogVolumetricLightmapImport:      Bricks at depth
+[2021.04.30-23.36.49:128][163]LogVolumetricLightmapImport:          0: 1.4% covering 100.0% of volume
+[2021.04.30-23.36.49:128][163]LogVolumetricLightmapImport:          1: 7.1% covering 8.2% of volume
+[2021.04.30-23.36.49:128][163]LogVolumetricLightmapImport:          2: 91.5% covering 1.6% of volume
+[2021.04.30-23.36.49:128][163]LogVolumetricLightmapImport:      Bricks in each level
+[2021.04.30-23.36.49:128][163]LogVolumetricLightmapImport:          KylesBuildings 			 295 bricks 	 100.0% (Persistent Level)
+[2021.04.30-23.36.49:588][163]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2021.04.30-23.36.49:588][163]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2021.04.30-23.36.49:588][163]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 512X512)
+[2021.04.30-23.36.49:588][163]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 512X512)
+[2021.04.30-23.36.49:588][163]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 256X256)
+[2021.04.30-23.36.49:588][163]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 256X256)
+[2021.04.30-23.36.49:588][163]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 1024X1024)
+[2021.04.30-23.36.49:588][163]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 1024X1024)
+[2021.04.30-23.36.49:588][163]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 1024X1024)
+[2021.04.30-23.36.49:588][163]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 1024X1024)
+[2021.04.30-23.36.49:588][163]LogTexture: Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 64X64)
+[2021.04.30-23.36.49:588][163]LogTexture: Display: Building textures: LQ_Lightmap_0_6 (DXT1, 64X64)
+[2021.04.30-23.36.49:746][163]LogTexture: Display: Building textures: ShadowMapTexture2D_21 (G8, 32X32)
+[2021.04.30-23.36.49:746][163]LogTexture: Display: Building textures: ShadowMapTexture2D_20 (BGRA8, 128X128)
+[2021.04.30-23.36.49:746][163]LogTexture: Display: Building textures: ShadowMapTexture2D_19 (BGRA8, 256X256)
+[2021.04.30-23.36.49:746][163]LogTexture: Display: Building textures: ShadowMapTexture2D_18 (BGRA8, 1024X1024)
+[2021.04.30-23.36.49:748][163]LogStaticLightingSystem: KylesBuildings_BuiltData storing lightmap data for 207 meshes in 10 LightmapResourceClusters (20.7 Meshes per cluster).
+[2021.04.30-23.36.49:771][163]Lightmass on DESKTOP-RBTKJ0E: 6.33 sec total, 145 ms importing, 122 ms setup, 1.56 sec photons, 4.46 sec processing, 0 ms extra exporting [664/664 mappings]. Threads: 1:06 min total, 33.2 sec processing.
+[2021.04.30-23.36.49:773][163]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2021.04.30-23.36.49:795][163]LogStaticLightingSystem: Illumination: 11.4 sec (363 ms encoding lightmaps, 125 ms encoding shadowmaps)
+[2021.04.30-23.36.49:795][163]LogStaticLightingSystem: Lightmap texture memory:  6.6 MB (6.1 MB streaming, 0.5 MB non-streaming), 12 textures
+[2021.04.30-23.36.49:795][163]LogStaticLightingSystem: Shadowmap texture memory: 5.8 MB (5.4 MB streaming, 0.3 MB non-streaming), 4 textures
+[2021.04.30-23.36.49:797][163]DumpUnbuiltLightIteractions
+[2021.04.30-23.36.49:797][163]Lights with unbuilt interactions: 0
+[2021.04.30-23.36.49:797][163]
+[2021.04.30-23.36.49:797][163]Primitives with unbuilt interactions: 0
+[2021.04.30-23.36.49:842][164]Cmd: MAP CHECK NOTIFYRESULTS
+[2021.04.30-23.36.49:842][164]MapCheck: New page: KylesBuildings - Apr 30, 2021, 3:36:49 PM
+[2021.04.30-23.36.49:843][164]MapCheck: Warning: FancyDoorway10_Blueprint Static mesh actor has NULL StaticMesh property 
+[2021.04.30-23.36.49:843][164]MapCheck: Warning: FancyDoorway10_Blueprint10 Static mesh actor has NULL StaticMesh property 
+[2021.04.30-23.36.49:843][164]MapCheck: Warning: FancyDoorway10_Blueprint11 Static mesh actor has NULL StaticMesh property 
+[2021.04.30-23.36.49:843][164]MapCheck: Warning: FancyDoorway10_Blueprint12 Static mesh actor has NULL StaticMesh property 
+[2021.04.30-23.36.49:843][164]MapCheck: Warning: FancyDoorway10_Blueprint2 Static mesh actor has NULL StaticMesh property 
+[2021.04.30-23.36.49:843][164]MapCheck: Warning: FancyDoorway10_Blueprint3 Static mesh actor has NULL StaticMesh property 
+[2021.04.30-23.36.49:843][164]MapCheck: Warning: FancyDoorway10_Blueprint4 Static mesh actor has NULL StaticMesh property 
+[2021.04.30-23.36.49:843][164]MapCheck: Warning: FancyDoorway10_Blueprint5 Static mesh actor has NULL StaticMesh property 
+[2021.04.30-23.36.49:843][164]MapCheck: Warning: FancyDoorway10_Blueprint6 Static mesh actor has NULL StaticMesh property 
+[2021.04.30-23.36.49:843][164]MapCheck: Warning: FancyDoorway10_Blueprint7 Static mesh actor has NULL StaticMesh property 
+[2021.04.30-23.36.49:844][164]MapCheck: Warning: FancyDoorway10_Blueprint8 Static mesh actor has NULL StaticMesh property 
+[2021.04.30-23.36.49:844][164]MapCheck: Warning: FancyDoorway10_Blueprint9 Static mesh actor has NULL StaticMesh property 
+[2021.04.30-23.36.49:844][164]MapCheck: Map check complete: 0 Error(s), 12 Warning(s), took 1.937ms to complete.
+[2021.04.30-23.36.55:972][552]LogTemp: Repeating last play command: Selected Viewport
+[2021.04.30-23.36.55:978][552]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.04.30-23.36.55:978][552]PIE: New page: PIE session: KylesBuildings (Apr 30, 2021, 3:36:55 PM)
+[2021.04.30-23.36.55:978][552]LogPlayLevel: Creating play world package: /Game/FPS/Kyle/UEDPIE_0_KylesBuildings
+[2021.04.30-23.36.56:005][552]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026185s)
+[2021.04.30-23.36.56:005][552]LogAIModule: Creating AISystem for world KylesBuildings
+[2021.04.30-23.36.56:005][552]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000113F347BE00), frame # 64552
+[2021.04.30-23.36.56:005][552]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000011322D1B100), frame # 64552
+[2021.04.30-23.36.56:006][552]LogPlayLevel: PIE: World Init took: (0.000880s)
+[2021.04.30-23.36.56:006][552]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FPS/Kyle/KylesBuildings.KylesBuildings to /Game/FPS/Kyle/UEDPIE_0_KylesBuildings.KylesBuildings (0.027178s)
+[2021.04.30-23.36.56:021][552]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2021.04.30-23.36.56:024][552]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.30-23.36.56:024][552]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.30-23.36.56:024][552]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.30-23.36.56:024][552]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.30-23.36.56:024][552]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.30-23.36.56:024][552]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.30-23.36.56:024][552]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.30-23.36.56:024][552]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.30-23.36.56:024][552]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.30-23.36.56:024][552]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.30-23.36.56:028][552]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.30-23.36.56:028][552]LogAudioMixer: Display: 1: FrontRight
+[2021.04.30-23.36.56:053][552]LogAudioMixer: Display: Using Audio Device Headphones (4- Arctis 7 Game)
+[2021.04.30-23.36.56:053][552]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.30-23.36.56:053][552]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.30-23.36.56:053][552]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.30-23.36.56:053][552]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.30-23.36.56:063][552]LogInit: FAudioDevice initialized.
+[2021.04.30-23.36.56:067][552]LogLoad: Game class is 'FPS_Conquest_GM_C'
+[2021.04.30-23.36.56:107][552]LogWorld: Bringing World /Game/FPS/Kyle/UEDPIE_0_KylesBuildings.KylesBuildings up for play (max tick rate 0) at 2021.04.30-19.36.56
+[2021.04.30-23.36.56:108][552]LogWorld: Bringing up level for play took: 0.040041
+[2021.04.30-23.36.56:108][552]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2021.04.30-23.36.56:109][552]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.04.30-23.36.56:112][552]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.04.30-23.36.56:113][552]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.04.30-23.36.56:113][552]PIE: Server logged in
+[2021.04.30-23.36.56:114][552]PIE: Play in editor total start time 0.136 seconds.
+[2021.04.30-23.39.10:977][872]LogScript: Warning: Script Msg: DestroySession - Invalid player state
+[2021.04.30-23.39.10:977][872]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.30-23.39.10:977][872]LogWorld: BeginTearingDown for /Game/FPS/Kyle/UEDPIE_0_KylesBuildings
+[2021.04.30-23.39.10:978][872]LogWorld: UWorld::CleanupWorld for KylesBuildings, bSessionEnded=true, bCleanupResources=true
+[2021.04.30-23.39.10:982][872]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.30-23.39.10:990][872]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.04.30-23.39.10:994][872]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.30-23.39.11:008][872]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.30-23.39.11:023][872]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000011322D1B100), frame # 74872
+[2021.04.30-23.39.11:023][872]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000113F347BE00), frame # 74872
+[2021.04.30-23.39.11:026][872]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2021.04.30-23.39.11:081][874]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2021.04.30-23.39.50:108][672]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2021.04.30-23.39.50:144][672]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2021.04.30-23.39.50:245][672]LogSavePackage: Moving 'E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Saved/KylesBuildingsF2F3DA7240B2D821EE00609CBB3A4F7F.tmp' to 'E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Content/FPS/Kyle/KylesBuildings.umap'
+[2021.04.30-23.39.50:257][672]LogFileHelpers: Saving map 'KylesBuildings' took 0.128
+[2021.04.30-23.39.50:435][672]LogSavePackage: Moving 'E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Saved/KylesBuildings_BuiltData30AF2EBF48D57A97B4880E87926AFCE1.tmp' to 'E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Content/FPS/Kyle/KylesBuildings_BuiltData.uasset'
+[2021.04.30-23.39.50:456][672]LogSavePackage: Moving 'E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Saved/FancyDoorwayBPlueprintC1E6A28947B7FA01C9E9F896B65B31D1.tmp' to 'E:/desktop/Game Building/Level Design/3V3 Shooter/3V3-Shooter/Multiplayer Asset Pack/FPSMultiplayer/Content/FPS/Blueprints/FancyDoorwayBPlueprint.uasset'
+[2021.04.30-23.39.50:480][672]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.30-23.39.50:480][672]LogContentValidation: Display: Validating World /Game/FPS/Kyle/KylesBuildings.KylesBuildings
+[2021.04.30-23.39.50:480][672]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FPS/Kyle/KylesBuildings_BuiltData.KylesBuildings_BuiltData
+[2021.04.30-23.39.50:480][672]LogContentValidation: Display: Validating Blueprint /Game/FPS/Blueprints/FancyDoorwayBPlueprint.FancyDoorwayBPlueprint
