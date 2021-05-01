@@ -21,5 +21,17 @@
 			"Name": "AdvancedSessions",
 			"Enabled": false
 		}
+	],
+	"TargetPlatforms": [
+		"Android",
+		"HoloLens",
+		"IOS",
+		"LinuxNoEditor",
+		"LinuxAArch64NoEditor",
+		"Lumin",
+		"MacNoEditor",
+		"TVOS",
+		"WindowsNoEditor",
+		"WindowsNoEditorWin32"
 	]
 }
